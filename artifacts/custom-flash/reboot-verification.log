@@ -1,0 +1,11 @@
+10-24 22:57:20:865 NtEarBattery [48] {ear battery left:100(false),right:100(false),case:85(false),stereo:null, stereoCharging:null}
+10-24 22:57:22:239 NtBleMethodChannel [96] connectStateChanged: connectType = NtConnectType.spp device = 2C:BE:EE:C1:A8:53 ，E1BE45 state = NtBleConnectState.disconnected
+10-24 22:57:22:378 NtBleMethodChannel [96] connectStateChanged: connectType = NtConnectType.bt device = 2C:BE:EE:C1:A8:53 ， state = NtBleConnectState.disconnected
+10-24 22:57:22:399 NtBleMethodChannel [96] connectStateChanged: connectType = NtConnectType.bt device = 2C:BE:EE:C1:A8:53 ， state = NtBleConnectState.disconnected
+10-24 22:57:46:545 NtBleMethodChannel [96] connectStateChanged: connectType = NtConnectType.spp device = 2C:BE:EE:C1:A8:53 ，E1BE45 state = NtBleConnectState.connected
+10-24 22:57:46:549 EarProtocol [1986] [C006_SN] getFirmwareVersion attempt=1 mac=2C:BE:EE:C1:A8:53
+10-24 22:57:46:550 EarProtocol [1903] [C006_SN] getFirmwareVersion send C042 mac=2C:BE:EE:C1:A8:53 deviceType=1 cachedFw=1.0.1.74 newVersion=1.0.1.74
+10-24 22:57:46:657 EarHelper [120] {[EAR] msg = NtEarMessage(byteArray=5560014240080011312e302e312e3734d835,sof=55,control=160,command=4042,length=8,fsn=11,payload=312e302e312e3734,checksum=35d8,deviceType=1,rspCode=0,crc=true,multiFrames=true)}
+10-24 22:57:46:657 NtEarFirmwareVersion [19] ear firmware version:1.0.1.74
+10-24 22:57:46:659 EarProtocol [1911] [C006_SN] getFirmwareVersion C042 response ok mac=2C:BE:EE:C1:A8:53 -> refresh callback
+10-24 22:57:46:709 NtEarBattery [48] {ear battery left:100(false),right:100(false),case:85(false),stereo:null, stereoCharging:null}

@@ -1,0 +1,29 @@
+{
+  "original_dex_matches_extracted": true,
+  "lab_dex_matches_original": true,
+  "dex_files": 8,
+  "original": {
+    "classes.dex": "1901e2199eda30051b4241184f02d8b1979a80b6af043f8885c069ab1a16ed81",
+    "classes2.dex": "4e4d6379d77be7cabed0f8e938f90e72cbf1188d020ffecd103ea469301a3c20",
+    "classes3.dex": "cf1ded04d1600e8213fb4aee5cc1c17304deefc1b4d960745564c996d29269de",
+    "classes4.dex": "e6f04e30defdaab10c83a3dde86513af28c9700cf9564c155f6ea417a7cc0a65",
+    "classes5.dex": "9f915c659bcf7c74d37b36ad3b300eb3e33b80e54868c961fe15b26b08ac1c19",
+    "classes6.dex": "4355ccf15b2bbc989a24fb324583d928712c81e421ad2fe3809306b49ca01d4e",
+    "classes7.dex": "4886214f0545f806d3ec129b00f8bb048901f7e4dfbea968ce9363f9890a2f32",
+    "classes8.dex": "abdfce71c2cafe45997ab5e04eedfab622c86c75253433627327c81418b99f70"
+  },
+  "lab": {
+    "classes8.dex": "abdfce71c2cafe45997ab5e04eedfab622c86c75253433627327c81418b99f70",
+    "classes3.dex": "cf1ded04d1600e8213fb4aee5cc1c17304deefc1b4d960745564c996d29269de",
+    "classes2.dex": "4e4d6379d77be7cabed0f8e938f90e72cbf1188d020ffecd103ea469301a3c20",
+    "classes.dex": "1901e2199eda30051b4241184f02d8b1979a80b6af043f8885c069ab1a16ed81",
+    "classes6.dex": "4355ccf15b2bbc989a24fb324583d928712c81e421ad2fe3809306b49ca01d4e",
+    "classes7.dex": "4886214f0545f806d3ec129b00f8bb048901f7e4dfbea968ce9363f9890a2f32",
+    "classes5.dex": "9f915c659bcf7c74d37b36ad3b300eb3e33b80e54868c961fe15b26b08ac1c19",
+    "classes4.dex": "e6f04e30defdaab10c83a3dde86513af28c9700cf9564c155f6ea417a7cc0a65",
+    "lib/arm64-v8a/libapp.so": "a6b9c235ebb993d9ec1768ab985d864c40e4894fd62ecb6fc2ba6ee8f5ccad71"
+  },
+  "installed_original_dart_sha256": "a6b9c235ebb993d9ec1768ab985d864c40e4894fd62ecb6fc2ba6ee8f5ccad71",
+  "installed_lab_dart_sha256": "a6b9c235ebb993d9ec1768ab985d864c40e4894fd62ecb6fc2ba6ee8f5ccad71",
+  "lab_dart_matches_installed_original": true
+}

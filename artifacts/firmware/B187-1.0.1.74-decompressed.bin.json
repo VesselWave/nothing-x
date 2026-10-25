@@ -1,0 +1,93 @@
+{
+  "model": "B187",
+  "declared_size": null,
+  "model_hex": "87b1",
+  "blocks": [
+    {
+      "offset": 8,
+      "compressed": 77228,
+      "decompressed": 131072
+    },
+    {
+      "offset": 77240,
+      "compressed": 60015,
+      "decompressed": 131072
+    },
+    {
+      "offset": 137259,
+      "compressed": 81627,
+      "decompressed": 131072
+    },
+    {
+      "offset": 218890,
+      "compressed": 70541,
+      "decompressed": 131072
+    },
+    {
+      "offset": 289435,
+      "compressed": 81170,
+      "decompressed": 131072
+    },
+    {
+      "offset": 370609,
+      "compressed": 80640,
+      "decompressed": 131072
+    },
+    {
+      "offset": 451253,
+      "compressed": 82649,
+      "decompressed": 131072
+    },
+    {
+      "offset": 533906,
+      "compressed": 83071,
+      "decompressed": 131072
+    },
+    {
+      "offset": 616981,
+      "compressed": 83180,
+      "decompressed": 131072
+    },
+    {
+      "offset": 700165,
+      "compressed": 68920,
+      "decompressed": 131072
+    },
+    {
+      "offset": 769089,
+      "compressed": 77637,
+      "decompressed": 131072
+    },
+    {
+      "offset": 846730,
+      "compressed": 82599,
+      "decompressed": 131072
+    },
+    {
+      "offset": 929333,
+      "compressed": 38182,
+      "decompressed": 131072
+    },
+    {
+      "offset": 967519,
+      "compressed": 105686,
+      "decompressed": 131072
+    },
+    {
+      "offset": 1073209,
+      "compressed": 110662,
+      "decompressed": 131072
+    },
+    {
+      "offset": 1183875,
+      "compressed": 12299,
+      "decompressed": 64676
+    }
+  ],
+  "size": 2030756,
+  "sha256": "3bcb4037056ffb6e1d1a18826b2e472bc8cdf55d047a213ceba94f2f1430ba33",
+  "footer_crc32": "a5f91cba",
+  "raw_crc32": "49dcf878",
+  "footer_crc_verified": false,
+  "footer": "CRC32_OF_IMAGE=0xA5F91CBA NT_MODE_ID=0x87b1"
+}

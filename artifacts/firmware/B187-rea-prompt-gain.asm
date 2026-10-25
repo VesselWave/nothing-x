@@ -1,0 +1,234 @@
+            0x2c049534      push  {r0, r1, r2, r4, r5, lr}
+            0x2c049536      bl    0x2c12cf7c
+            0x2c04953a      mov   r5, r0
+            0x2c04953c      movs  r0, 1
+            0x2c04953e      bl    0x2c136d6c
+        ,=< 0x2c049542      cbz   r0, 0x2c049560
+        |   0x2c049544      mov   r0, r5
+        |   0x2c049546      bl    0x2c0e5794
+       .--> 0x2c04954a      mov   r4, r0
+      .---> 0x2c04954c      mov   r3, r5
+      ::|   0x2c04954e      ldr   r2, [0x2c04957c]                     ; [0x2c04957c:4]=0x2c145b11 "qc_get_curr_volume"
+      ::|   0x2c049550      ldr   r1, [0x2c049580]                     ; [0x2c049580:4]=0x2c1494ff "%s %d %d"
+      ::|   0x2c049552      str   r4, [sp]
+      ::|   0x2c049554      movs  r0, 0x44                             ; 'D'
+      ::|   0x2c049556      bl    0x2c142e98
+      ::|   0x2c04955a      mov   r0, r4
+      ::|   0x2c04955c      add   sp, 0xc
+      ::|   0x2c04955e      pop   {r4, r5, pc}
+      ::`-> 0x2c049560      movs  r0, 8
+      ::    0x2c049562      bl    0x2c136d6c
+      ::,=< 0x2c049566      cbz   r0, 0x2c049570
+     .----> 0x2c049568      mov   r0, r5
+     :::|   0x2c04956a      bl    0x2c0eb298
+     ::`==< 0x2c04956e      b     0x2c04954a
+     :: `-> 0x2c049570      bl    0x2c136d6c
+     ::     0x2c049574      cmp   r0, 0
+     `====< 0x2c049576      bne   0x2c049568
+      :     0x2c049578      movs  r4, 8
+      `===< 0x2c04957a      b     0x2c04954c
+            0x2c04957c      ldrh  r1, [r2, r4]
+            0x2c04957e      cmp   r4, 0x14                             ; 20
+            0x2c049580      str   r4, [sp, 0x3fc]
+            0x2c049582      cmp   r4, 0x14                             ; 20
+            0x2c049584      push  {r3, r4, r5, lr}
+            0x2c049586      mov   r5, r0
+            0x2c049588      ldr   r0, [0x2c0495cc]                     ; [0x2c0495cc:4]=0x20020230
+            0x2c04958a      bl    0x2c0e7672
+            0x2c04958e      ldr   r4, [0x2c0495cc]                     ; [0x2c0495cc:4]=0x20020230
+        ,=< 0x2c049590      cbz   r0, 0x2c0495a8
+       .--> 0x2c049592      ldr   r0, [0x2c0495d0]                     ; [0x2c0495d0:4]=0x20020239
+       :|   0x2c049594      bl    0x2c0e7672
+      ,===< 0x2c049598      cbnz  r0, 0x2c0495c8
+      |:|   0x2c04959a      ldr   r0, [0x2c0495d0]                     ; [0x2c0495d0:4]=0x20020239
+      |:|   0x2c04959c      bl    0x2c0e76a0
+     ,====< 0x2c0495a0      cbnz  r0, 0x2c0495c8
+     ||:|   0x2c0495a2      movs  r3, 1
+     ||:|   0x2c0495a4      ldr   r2, [0x2c0495d0]                     ; [0x2c0495d0:4]=0x20020239
+    ,=====< 0x2c0495a6      b     0x2c0495b6
+    |||:`-> 0x2c0495a8      mov   r0, r4
+    |||:    0x2c0495aa      bl    0x2c0e76a0
+    |||:    0x2c0495ae      mov   r3, r0
+    |||:    0x2c0495b0      cmp   r0, 0
+    |||`==< 0x2c0495b2      bne   0x2c049592
+      :::   0x2c134474      sub.w r3, r4, 0x32
+      :::   0x2c134478      cmp   r3, 1                                ; 1
+      ::`=< 0x2c13447a      bhi.w 0x2c1342c4
+      ::    0x2c13447e      bl    0x2c049534
+      ::    0x2c134482      cmp   r0, 0xc                              ; 12
+      ::    0x2c134484      it    hs
+      ::    0x2c134486      movhs r0, 0xc
+      `===< 0x2c134488      b     0x2c1343d2
+       :    0x2c13448a      movs  r4, 0
+       `==< 0x2c13448c      b     0x2c134352
+            0x2c13448e      vmov.f32 s0, 1.000000e+00
+            0x2c134492      bl    0x2c131924
+            0x2c134496      vldr  s0, [0x2c134474]
+            0x2c13449a      mov   r0, r5
+            0x2c13449c      bl    0x2c132838
+            0x2c1344a0      bl    0x2c142e48
+            0x2c1344a4      ldr   r4, [0x2c134520]                     ; [0x2c134520:4]=0x2001edd8
+        ,=< 0x2c1344a6      cbnz  r0, 0x2c1344c4
+        |   0x2c1344a8      bl    0x2c04a1a8
+       ,==< 0x2c1344ac      cbnz  r0, 0x2c1344c4
+       ||   0x2c1344ae      ldr   r3, [0x2c134524]                     ; [0x2c134524:4]=0x200586eb
+       ||   0x2c1344b0      ldrb  r3, [r3]
+      ,===< 0x2c1344b2      cbz   r3, 0x2c1344c4
+      |||   0x2c1344b4      ldr   r3, [r4]
+      |||   0x2c1344b6      movs  r0, 3
+      |||   0x2c1344b8      cmp   r3, 0x2e                             ; '.' ; 46
+      |||   0x2c1344ba      ite   eq
+      |||   0x2c1344bc      moveq r1, 0x3c                             ; '<'
+      |||   0x2c1344be      movne r1, 7
+      |||   0x2c1344c0      bl    0x2c13188c
+      ```-> 0x2c1344c4      movs  r1, 0
+            0x2c1344c6      movs  r0, 3
+            0x2c1344c8      bl    0x2c13202c
+            0x2c1344cc      movs  r1, 0
+            0x2c1344ce      movs  r0, 3
+            0x2c1344d0      bl    0x2c1320f0
+            0x2c1344d4      bl    0x2c0a1e94
+            0x2c05833c      bl    0x2c0492f4
+            0x2c058340      movs  r2, 1
+            0x2c058342      ldr   r4, [0x2c058520]                     ; [0x2c058520:4]=0x2002181d
+            0x2c058344      ldr   r3, [0x2c058524]                     ; [0x2c058524:4]=0x2002181c
+            0x2c058346      ldrb  r5, [r4]
+            0x2c058348      strb  r2, [r3]
+        ,=< 0x2c05834a      cbnz  r5, 0x2c05835c
+        |   0x2c05834c      bl    0x2c049534
+        |   0x2c058350      cmp   r0, 0xe                              ; 14
+       ,==< 0x2c058352      bhi   0x2c05835c
+       ||   0x2c058354      mov   r1, r5
+       ||   0x2c058356      movs  r0, 0x32                             ; '2'
+       ||   0x2c058358      bl    0x2c1348dc
+       ``-> 0x2c05835c      movs  r3, 0
+            0x2c05835e      strb  r3, [r4]
+            0x2c058360      ldr   r0, [0x2c058528]                     ; [0x2c058528:4]=0xc0d205d
+            0x2c058362      add   sp, 0x14
+            0x2c058364      pop.w {r4, r5, lr}
+        ,=< 0x2c058368      b.w   0x2c0e7244
+        |   0x2c05836c      bl    0x2c0492f4
+        |   0x2c058370      movs  r2, 1
+        |   0x2c058372      ldr   r4, [0x2c058520]                     ; [0x2c058520:4]=0x2002181d
+        |   0x2c058374      ldr   r3, [0x2c058524]                     ; [0x2c058524:4]=0x2002181c
+        |   0x2c058376      ldrb  r5, [r4]
+        |   0x2c058378      strb  r2, [r3]
+       ,==< 0x2c05837a      cbnz  r5, 0x2c05838c
+       ||   0x2c05837c      bl    0x2c049534
+       ||   0x2c058380      cmp   r0, 1                                ; 1
+      ,===< 0x2c058382      bls   0x2c05838c
+      |||   0x2c058384      mov   r1, r5
+      |||   0x2c058386      movs  r0, 0x33                             ; '3'
+      |||   0x2c058388      bl    0x2c1348dc
+      ``--> 0x2c05838c      movs  r3, 0
+        |   0x2c05838e      strb  r3, [r4]
+        |   0x2c058390      ldr   r0, [0x2c058528]                     ; [0x2c058528:4]=0xc0d205d
+        |   0x2c058392      add   sp, 0x14
+        |   0x2c058394      pop.w {r4, r5, lr}
+       ,==< 0x2c058398      b.w   0x2c0e724e
+       ||   0x2c05839c      bl    0x2c06cbf0
+      ,===< 0x2c0583a0      cbz   r0, 0x2c0583bc
+      |||   0x2c0583a2      bl    0x2c143198
+      |||   0x2c0583a6      mov   r1, r0
+     ,====< 0x2c0583a8      cbnz  r0, 0x2c0583b0
+     ||||   0x2c0583aa      movs  r0, 0x41                             ; 'A'
+       ::   0x2c047000      vselvs.f64 d9, d11, d3
+       ::   0x2c047004      ldr   r2, [0x2c0470ac]                     ; [0x2c0470ac:4]=0x2c144e30 "qc_bt_key_event_handle_callback"
+       ::   0x2c047006      ldr   r1, [0x2c0470b4]                     ; [0x2c0470b4:4]=0x2c1494ff "%s %d %d"
+       ::   0x2c047008      strb.w r0, [sp, 0x10]
+       ::   0x2c04700c      str   r0, [sp]
+       ::   0x2c04700e      movs  r0, 0x44                             ; 'D'
+       ::   0x2c047010      bl    0x2c142e98
+       ::   0x2c047014      bl    0x2c06d0f0
+       ::   0x2c047018      ldrb  r2, [r0]
+       ::   0x2c04701a      ldrb.w r3, [sp, 0x10]
+      ,===< 0x2c04701e      cbz   r2, 0x2c04704c
+      |::   0x2c047020      cmp   r3, 8                                ; 8
+     ,====< 0x2c047022      bne   0x2c047040
+     ||::   0x2c047024      ldrh.w r3, [r0, 0xd]
+     ||::   0x2c047028      adds  r3, 1
+     ||::   0x2c04702a      strh.w r3, [r0, 0xd]
+  ...-----> 0x2c04702e      ldrb.w r3, [sp, 0x10]
+  :::||::   0x2c047032      cmp   r3, 3                                ; 3
+  ========< 0x2c047034      bne   0x2c047070
+  :::||::   0x2c047036      movw  r0, 0x501
+  :::||::   0x2c04703a      bl    0x2c0568fc
+  ========< 0x2c04703e      b     0x2c047070
+  :::`----> 0x2c047040      cmp   r3, 9                                ; 9
+  :::,====< 0x2c047042      beq   0x2c04705a
+  :::||::   0x2c047044      cmp   r3, 0xa                              ; 10
+  ========< 0x2c047046      beq   0x2c047066
+  :::||::   0x2c047048      cmp   r3, 6                                ; 6
+  ========< 0x2c04704a      beq   0x2c047094
+  :::|`---> 0x2c04704c      cmp   r3, 2                                ; 2
+  `=======< 0x2c04704e      bne   0x2c04702e
+   ::| ::   0x2c047050      mov.w r0, 0x500
+   ::| ::   0x2c047054      bl    0x2c0568fc
+   `======< 0x2c047058      b     0x2c04702e
+    :`----> 0x2c04705a      ldrh.w r3, [r0, 0xf]
+    :  ::   0x2c04705e      adds  r3, 1
+    :  ::   0x2c047060      strh.w r3, [r0, 0xf]
+    `=====< 0x2c047064      b     0x2c04702e
+  --------> 0x2c047066      ldrh.w r3, [r0, 0x11]
+       ::   0x2c04706a      adds  r3, 1
+       ::   0x2c04706c      strh.w r3, [r0, 0x11]
+  --------> 0x2c047070      ldrb.w r3, [sp, 0x10]
+       ::   0x2c047074      cmp   r3, 7                                ; 7
+      ,===< 0x2c047076      bne   0x2c047080
+      |::   0x2c047078      movw  r0, 0x502
+      |::   0x2c04707c      bl    0x2c0568fc
+      `---> 0x2c047080      add   r0, sp, 0xc
+       ::   0x2c047082      bl    0x2c058540
+       ::   0x2c047086      ldr   r3, [sp, 0xc]
+       ::   0x2c047088      cmp   r3, 4                                ; 4
+       `==< 0x2c04708a      bne   0x2c046fd8
+        :   0x2c04708c      mov   r0, r4
+        :   0x2c04708e      bl    0x2c059568
+        `=< 0x2c047092      b     0x2c046fd8
+  --------> 0x2c047094      ldrh.w r3, [r0, 0x13]
+            0x2c047098      adds  r3, 1
+            0x2c04709a      invalid
+            0x2c0587bc      ldr   r3, [0x2c0587c4]                     ; [0x2c0587c4:4]=0x2002181c
+            0x2c0587be      strb  r0, [r3]
+            0x2c0587c0      bx    lr
+            0x2c0587c2      nop
+            0x2c0587c4      adds  r4, r3, r0
+            0x2c0587c6      movs  r0, 2
+            0x2c0587c8      ldr   r3, [0x2c0587d0]                     ; [0x2c0587d0:4]=0x2002181c
+            0x2c0587ca      ldrb  r0, [r3]
+            0x2c0587cc      bx    lr
+            0x2c0587ce      nop
+            0x2c0587d0      adds  r4, r3, r0
+            0x2c0587d2      movs  r0, 2
+            0x2c0587d4      ldr   r3, [0x2c0587dc]                     ; [0x2c0587dc:4]=0x2002181d
+            0x2c0587d6      strb  r0, [r3]
+            0x2c0587d8      bx    lr
+            0x2c0587da      nop
+            0x2c0587dc      adds  r5, r3, r0
+            0x2c0587de      movs  r0, 2
+            0x2c0587e0      push  {r4, lr}
+            0x2c0587e2      mov   r4, r0
+            0x2c0587e4      mov   r3, r0
+            0x2c0587e6      ldr   r2, [0x2c0587f8]                     ; [0x2c0587f8:4]=0x2c14ab4a "FIND_MYBUDS"
+            0x2c0587e8      movw  r0, 0x1643
+            0x2c0587ec      ldr   r1, [0x2c0587fc]                     ; [0x2c0587fc:4]=0x2c14ab56 "[%s] [GFPS]set:%d"
+            0x2c0587ee      bl    0x2c142e98
+            0x2c0587f2      ldr   r3, [0x2c058800]                     ; [0x2c058800:4]=0x20021821
+            0x2c0587f4      strb  r4, [r3]
+            0x2c0587f6      pop   {r4, pc}
+            0x2c0587f8      add   r3, sp, 0x128
+            0x2c0587fa      cmp   r4, 0x14                             ; 20
+            0x2c0587fc      add   r3, sp, 0x158
+            0x2c0587fe      cmp   r4, 0x14                             ; 20
+            0x2c058800      adds  r1, r4, r0
+            0x2c058802      movs  r0, 2
+            0x2c058804      push  {r4, lr}
+            0x2c058806      mov   r4, r0
+            0x2c058808      mov   r3, r0
+            0x2c05880a      ldr   r2, [0x2c05881c]                     ; [0x2c05881c:4]=0x2c14ab4a "FIND_MYBUDS"
+            0x2c05880c      movw  r0, 0x1643
+            0x2c058810      ldr   r1, [0x2c058820]                     ; [0x2c058820:4]=0x2c14ab56 "[%s] [GFPS]set:%d"
+            0x2c058812      bl    0x2c142e98
+            0x2c058816      ldr   r3, [0x2c058824]                     ; [0x2c058824:4]=0x20021822
+            0x2c058818      strb  r4, [r3]
+            0x2c05881a      pop   {r4, pc}

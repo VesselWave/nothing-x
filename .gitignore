@@ -1,0 +1,6 @@
+artifacts/
+research/
+android/build/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,56 @@
+{
+  "mode": "mute",
+  "version": "1.0.1.74",
+  "model": "B187",
+  "source_sha256": "53573bd9e3a1bf6d65b7bed1e121bacb46cacfcd0036a2484bf33e0b3ce44f3b",
+  "sha256": "d8525f692656e3c4126a2c5ee5994e881ff8ca904b47c141e9c279fc79703c5e",
+  "size": 1196213,
+  "raw_sha256": "a504ce5d25e81d1c5057f79a33369bf322131ac84f72a65e86f100f0da8503ad",
+  "raw_size": 2030756,
+  "stock_roundtrip_identical": true,
+  "inner_crc_verified": true,
+  "inner_crc": "EB1CBBD3",
+  "outer_crc": "c3981700",
+  "outer_crc_verified": true,
+  "changed_blocks": [
+    2,
+    15
+  ],
+  "changed_raw_offsets": [
+    "0x495a8",
+    "0x495a9",
+    "0x495aa",
+    "0x495ab",
+    "0x1efc4d",
+    "0x1efc4e",
+    "0x1efc4f",
+    "0x1efc50",
+    "0x1efc51",
+    "0x1efc52",
+    "0x1efc53",
+    "0x1efc54"
+  ],
+  "patch": {
+    "model": "B187",
+    "version": "1.0.1.74",
+    "mode": "mute",
+    "source_sha256": "3bcb4037056ffb6e1d1a18826b2e472bc8cdf55d047a213ceba94f2f1430ba33",
+    "output_sha256": "586211ac7b3e718e97b0ada858dee5690a1d1f03cf5668d03c2546e9248db059",
+    "size": 2030756,
+    "offset": "0x495a8",
+    "address": "0x2c0595a8",
+    "before": "dbf098b9",
+    "after": "704700bf",
+    "scope": "Case rotary helper normal prompts 50/51; boundary prompts remain possible",
+    "flashable": false,
+    "hardware_verified": false,
+    "limitations": [
+      "Offline decompressed code experiment only; no BES repacking or integrity repair",
+      "Footer CRC, secure boot/signature acceptance and recovery remain unresolved",
+      "Fixed/half-index change a prompt stream configuration, not measured sound pressure",
+      "Other prompt/mixing paths and minimum/maximum tones are not covered"
+    ]
+  },
+  "hardware_verified": false,
+  "device_acceptance_unknown": true
+}

@@ -1,0 +1,21 @@
+{
+  "model": "B187",
+  "version": "1.0.1.74",
+  "mode": "fixed",
+  "source_sha256": "3bcb4037056ffb6e1d1a18826b2e472bc8cdf55d047a213ceba94f2f1430ba33",
+  "output_sha256": "953ace69879bd058f1178e4cd9397d2facea9b48fe5780c7c6d8043d462cedf4",
+  "size": 2030756,
+  "offset": "0x12447e",
+  "address": "0x2c13447e",
+  "before": "15f759f8",
+  "after": "062000bf",
+  "scope": "Prompt stream IDs 50/51: fixed volume index 6; original cap retained",
+  "flashable": false,
+  "hardware_verified": false,
+  "limitations": [
+    "Offline decompressed code experiment only; no BES repacking or integrity repair",
+    "Footer CRC, secure boot/signature acceptance and recovery remain unresolved",
+    "Fixed/half-index change a prompt stream configuration, not measured sound pressure",
+    "Other prompt/mixing paths and minimum/maximum tones are not covered"
+  ]
+}

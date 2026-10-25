@@ -1,0 +1,490 @@
+{
+  "description": "Selected payload bytes before Git LFS filtering; excludes this manifest itself",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 72,
+      "sha256": "7491183002ec151dfa2b6eec1f1d4fa5a83e3a99db025a5cad6f1088d9093701"
+    },
+    {
+      "path": ".gitignore",
+      "size": 65,
+      "sha256": "2101411a6974add792e4b0c1c6fa558947584d05ea2f495dcd1656ebaed260d4"
+    },
+    {
+      "path": "README.md",
+      "size": 7031,
+      "sha256": "22eed9bcb5cd432fcaf528e755ad3cc4a57676c2d590f5be3315d333f05ff245"
+    },
+    {
+      "path": "android/AndroidManifest.xml",
+      "size": 766,
+      "sha256": "8980b709e62397daac0af335521d82c249378cd8f086e0e3d55b575dd8a140e8"
+    },
+    {
+      "path": "android/build.sh",
+      "size": 936,
+      "sha256": "8184711e202a08d8022154294c7c80d26a37a9713fc2ad30236457d3817c0298"
+    },
+    {
+      "path": "android/src/MainActivity.java",
+      "size": 13597,
+      "sha256": "78185c1292aadb8cf140a7e1cad8a4c37c1721d6eb4e096c87437fd594118847"
+    },
+    {
+      "path": "artifacts/buds-lab.apk",
+      "size": 16801,
+      "sha256": "a6854eb898fb2dd3f885e63a39685f3bc2cfae8f86e2eb9bd0c67406e76f699b"
+    },
+    {
+      "path": "artifacts/custom-flash/app-transfer-file.bin",
+      "size": 1196213,
+      "sha256": "d8525f692656e3c4126a2c5ee5994e881ff8ca904b47c141e9c279fc79703c5e"
+    },
+    {
+      "path": "artifacts/custom-flash/handoff.jsonl",
+      "size": 239,
+      "sha256": "c38a6f9d6a5277390d468513931e9707b72d697afb132fb21fe019514a673f34"
+    },
+    {
+      "path": "artifacts/custom-flash/native-current-run.log",
+      "size": 3019467,
+      "sha256": "eccf6de452804ed8cb4f4036c6a21a24850bba10f6a2ffc1a66e131f39c75e69"
+    },
+    {
+      "path": "artifacts/custom-flash/outcome.json",
+      "size": 520,
+      "sha256": "4696147aa0d7eeb53df7f150d56112b2b403fa409126a20b1c22e41293ae7ca0"
+    },
+    {
+      "path": "artifacts/custom-flash/reboot-verification.log",
+      "size": 1631,
+      "sha256": "a9c2d4556a81547741c690923341999b97066bd7225e9c5fb9b763b3ed1dfe05"
+    },
+    {
+      "path": "artifacts/custom-flash/staged-file-verification.json",
+      "size": 121,
+      "sha256": "b53dd9bde208ca310ee48cd1a326d6123439ecb2d44ffd3a32afacae0168bd4e"
+    },
+    {
+      "path": "artifacts/custom-flash/transfer-verification.json",
+      "size": 282731,
+      "sha256": "0ed6e28a34b8189f229cdf929bfb300056123d48ad272e1b930ee8f61d9923b0"
+    },
+    {
+      "path": "artifacts/firmware/B172-0-9OboQZeOgcCfSvb4bEGTaV4f1x3813BqLlWXypbHBq81MvR0pkZgMHsTSs7PSccFKTPPs9PrPbLiU3j4kF41DJM3YmLBAI4AEg4FTAuf87NUUFEsxp2uPS1z4O3a7WUt",
+      "size": 1428280,
+      "sha256": "2efe1ca2ebf719a6f62ef03d3a358caf32b2f654ab16e1e999961943802f8a97"
+    },
+    {
+      "path": "artifacts/firmware/B172-0.0.8.1-decompressed.bin",
+      "size": 2468588,
+      "sha256": "0e5712d2aa7bc20676681e2fb114ae861867d83f4f4ce5b523682127efaa026b"
+    },
+    {
+      "path": "artifacts/firmware/B172-0.0.8.1-decompressed.bin.json",
+      "size": 2096,
+      "sha256": "5fe52671c2dc1dd247b31860d473afa6e5d517d4c134e0c0f28a5c4697c86094"
+    },
+    {
+      "path": "artifacts/firmware/B172-analysis.json",
+      "size": 1604,
+      "sha256": "5abdd4a8b2e7f684e81bac1cfd3c69a291dfede17f76b382f61adef636a7b4ad"
+    },
+    {
+      "path": "artifacts/firmware/B172-prompt-dispatch.asm",
+      "size": 7784,
+      "sha256": "7c54638e76299a92de4ff7e82745f31c639c63e20e4e66c55619bb73cdb07d57"
+    },
+    {
+      "path": "artifacts/firmware/B172-prompt-xrefs.json",
+      "size": 3252,
+      "sha256": "7dce2a86423ac7f73ccb09e13d35e26021afc8c687784967bc832c54b1ebac61"
+    },
+    {
+      "path": "artifacts/firmware/B172-raw-analysis.json",
+      "size": 57802,
+      "sha256": "93ee07e1ee1f8d02b369cb49df97dda350955cd248e1b6d03cb116be15a8c563"
+    },
+    {
+      "path": "artifacts/firmware/B172-rotation.asm",
+      "size": 23858,
+      "sha256": "c8de3042278fab53461ea6b36af12ee8ed12463f5bc3df640cd717e38e16860c"
+    },
+    {
+      "path": "artifacts/firmware/B172-volume-handler.asm",
+      "size": 23508,
+      "sha256": "d092c6e68d2d6b05335831e6c689d413bbe3aa0342b8d96f9fc24a21eb449473"
+    },
+    {
+      "path": "artifacts/firmware/B187-1.0.1.74-decompressed.bin",
+      "size": 2030756,
+      "sha256": "3bcb4037056ffb6e1d1a18826b2e472bc8cdf55d047a213ceba94f2f1430ba33"
+    },
+    {
+      "path": "artifacts/firmware/B187-1.0.1.74-decompressed.bin.json",
+      "size": 1820,
+      "sha256": "3fbc26c03d395f46eba74db0723728eae97f93e0d083595374a77d403dbbf783"
+    },
+    {
+      "path": "artifacts/firmware/B187-1.0.1.74-ping-fixed6.OFFLINE.bin",
+      "size": 2030756,
+      "sha256": "953ace69879bd058f1178e4cd9397d2facea9b48fe5780c7c6d8043d462cedf4"
+    },
+    {
+      "path": "artifacts/firmware/B187-1.0.1.74-ping-fixed6.OFFLINE.bin.json",
+      "size": 850,
+      "sha256": "da68eba52bb5bef9732c9d923b3603e662ba61b1dc37985035ab78c6f300c765"
+    },
+    {
+      "path": "artifacts/firmware/B187-1.0.1.74-ping-half-index.OFFLINE.bin",
+      "size": 2030756,
+      "sha256": "649939a5f0da1f7c73401a05172233cbef669b0edadc4dbdeb5bb67aa207ca98"
+    },
+    {
+      "path": "artifacts/firmware/B187-1.0.1.74-ping-half-index.OFFLINE.bin.json",
+      "size": 866,
+      "sha256": "7a04197a5be9bcb6e8a26fb4dc05284a4d90680ad0d8b1a8cac6bf3fd903d59c"
+    },
+    {
+      "path": "artifacts/firmware/B187-1.0.1.74-ping-mute.OFFLINE.bin",
+      "size": 2030756,
+      "sha256": "586211ac7b3e718e97b0ada858dee5690a1d1f03cf5668d03c2546e9248db059"
+    },
+    {
+      "path": "artifacts/firmware/B187-1.0.1.74-ping-mute.OFFLINE.bin.json",
+      "size": 853,
+      "sha256": "87e60b5395aae90f8317a3b8d7438897aee87bab29e2074830a5d30a39bf241d"
+    },
+    {
+      "path": "artifacts/firmware/B187-1.0.1.74-ping-mute.OTA.bin",
+      "size": 1196213,
+      "sha256": "d8525f692656e3c4126a2c5ee5994e881ff8ca904b47c141e9c279fc79703c5e"
+    },
+    {
+      "path": "artifacts/firmware/B187-1.0.1.74-ping-mute.OTA.bin.json",
+      "size": 1741,
+      "sha256": "2d3d247f2fa5354fc659de45cfbd7305539dbe77b269907e73a58259e0b23851"
+    },
+    {
+      "path": "artifacts/firmware/B187-1.0.1.74-verification.json",
+      "size": 330,
+      "sha256": "f7fe9221d2aea33e378a6c52438a347ffef13eba4df2ba66fc8e1a5681092faf"
+    },
+    {
+      "path": "artifacts/firmware/B187-1.0.1.74.bin",
+      "size": 1196218,
+      "sha256": "53573bd9e3a1bf6d65b7bed1e121bacb46cacfcd0036a2484bf33e0b3ce44f3b"
+    },
+    {
+      "path": "artifacts/firmware/B187-prompt-stream.asm",
+      "size": 17363,
+      "sha256": "c2381a15d207312f06f0089f7153883cdce5bd5d1b3e4b8dbacc5c51f56f6392"
+    },
+    {
+      "path": "artifacts/firmware/B187-raw-analysis.json",
+      "size": 58176,
+      "sha256": "c52c2f3945e8d0fe45e1b5465174daa945474e21788de84130c77b9bc9307535"
+    },
+    {
+      "path": "artifacts/firmware/B187-rea-boot-info.asm",
+      "size": 6259,
+      "sha256": "0d9e266b6bca8ff10f69052a0f468047bb67fe3e0e18e5e6f73152cfef7c5795"
+    },
+    {
+      "path": "artifacts/firmware/B187-rea-boot-info.json",
+      "size": 15112,
+      "sha256": "13a2ede9df32768e948173788bf41f2a0f1dcf550c03faa29f48a8726219fe1b"
+    },
+    {
+      "path": "artifacts/firmware/B187-rea-inventory.json",
+      "size": 20074,
+      "sha256": "7db22f7f666319d5cb5974fe386ac6f387d5b740f3d0298d94137d000e3fe83f"
+    },
+    {
+      "path": "artifacts/firmware/B187-rea-prompt-dispatch.asm",
+      "size": 22787,
+      "sha256": "2afd994f000d65e8d5a3f7c070759f08db899df6cd69e8d892e77970c0a41d8a"
+    },
+    {
+      "path": "artifacts/firmware/B187-rea-prompt-dispatch.json",
+      "size": 48780,
+      "sha256": "6e74332fbf83b519f9e5fedb241528e3915b12a82c28c8475c2bbb93fccec81c"
+    },
+    {
+      "path": "artifacts/firmware/B187-rea-prompt-gain.asm",
+      "size": 12624,
+      "sha256": "737805d5da445554ead865870e1f993c92ff106365653769cfeb84440b108f85"
+    },
+    {
+      "path": "artifacts/firmware/B187-rea-prompt-gain.json",
+      "size": 28178,
+      "sha256": "678730d6db4d401330ff471cc88d3ae6c9a71592bcfaba4c3b43a05514f4b32d"
+    },
+    {
+      "path": "artifacts/firmware/B187-rea-rotation.json",
+      "size": 18370,
+      "sha256": "f6d04243f6cacf685d5ba0cafd68ea3bb61fe7aab6c2c4312867d08b060a59a9"
+    },
+    {
+      "path": "artifacts/firmware/B187-rea-stream-volume.asm",
+      "size": 4786,
+      "sha256": "d10a70475503a7614859bf5d1a643b13545e074c218f5fff241d429223bd58fe"
+    },
+    {
+      "path": "artifacts/firmware/B187-rea-stream-volume.json",
+      "size": 12116,
+      "sha256": "e3cc99096f0fdf634c3d283e82b493bcaac9dd4feb4b1e41a1a3f6285873575f"
+    },
+    {
+      "path": "artifacts/firmware/B187-rea-volume.asm",
+      "size": 36838,
+      "sha256": "cc10bc81fb6fb5e6d00965d9d4c45b9f70770af6e535e3ae5d588eaa6329fab4"
+    },
+    {
+      "path": "artifacts/firmware/B187-rea-volume.json",
+      "size": 77540,
+      "sha256": "a6462a1360f23442e3d3efcba5235c9aae0002030f657657f938972856fe96b4"
+    },
+    {
+      "path": "artifacts/firmware/B187-rotation.asm",
+      "size": 1704,
+      "sha256": "1d11444d7df8c99f681e159dc632ae79b8d2960f5dfbf30fcb1d1f1046ed26a1"
+    },
+    {
+      "path": "artifacts/firmware/B187-sanity-crc.asm",
+      "size": 16767,
+      "sha256": "620435a12c40f5b17bfeb14044c03251c6a765ee60671974b19fe0d9fd5ac3fe"
+    },
+    {
+      "path": "artifacts/firmware/B187-stream-config.asm",
+      "size": 19324,
+      "sha256": "a82918c1d80f578e52bb4e0837335fa3e3c765a7817e48ea14087cf1824504f2"
+    },
+    {
+      "path": "artifacts/firmware/B187-stream-open.asm",
+      "size": 15357,
+      "sha256": "9f3926faad906b6de63b5b72c4a6cbf0b5efe542437b63962bfcc5f75ff93a2c"
+    },
+    {
+      "path": "artifacts/firmware/B187-stream-setup.asm",
+      "size": 11335,
+      "sha256": "f076e9f76086cd6b920b4bfa15e419e5320362e98f358831a2d46ad6ff4fd45e"
+    },
+    {
+      "path": "artifacts/firmware/B187-volume-handler.asm",
+      "size": 24749,
+      "sha256": "94ab1b96fbea0111b55ac1c6871f0d0dad90a916d6501bb1684cad44d086218c"
+    },
+    {
+      "path": "artifacts/reflash/app-code-comparison.json",
+      "size": 1889,
+      "sha256": "61e52046a48fd0fe519bc2f84e843121337534a78e0b27e3145735f17b35eb17"
+    },
+    {
+      "path": "artifacts/reflash/installed-lab.apk",
+      "size": 226549809,
+      "sha256": "67877934adfce8e7413b68379081ba23873a7652bb9be5c1885edb969d3d2f93"
+    },
+    {
+      "path": "artifacts/reflash/native-transfer.log",
+      "size": 5288205,
+      "sha256": "d7cfcc57a4a72fa386e1c782c5bc895a57223642e067fcce6a73a950a6cbe844"
+    },
+    {
+      "path": "artifacts/reflash/offered-file-verification.json",
+      "size": 168,
+      "sha256": "e172555170ab8eb62aa2346992104d1bd73c8c371758811bf6a5f8814056694a"
+    },
+    {
+      "path": "artifacts/reflash/reboot-verification.log",
+      "size": 1631,
+      "sha256": "635d90fa67f0206c1374803ccc7448aa4d4a1b00ab6d8420489dffac9d26815c"
+    },
+    {
+      "path": "artifacts/reflash/transfer-verification.json",
+      "size": 282691,
+      "sha256": "4e8a9267b73db7d31b80d4560e1d78189873f94bbaf826973aab8365ac54d1b2"
+    },
+    {
+      "path": "docs/b187-custom-flash.md",
+      "size": 5825,
+      "sha256": "1270fa9533c7c02b665b12903a069607852ae7dcfc9cc2d24d7d2279003bb2e6"
+    },
+    {
+      "path": "docs/b187-recovery-risk.md",
+      "size": 9003,
+      "sha256": "e52f725063bfce301a6ee504980c20f76f2b8dd253500ede97ebca1d3a57a2ee"
+    },
+    {
+      "path": "docs/b187-stock-reflash.md",
+      "size": 6707,
+      "sha256": "73315cc1236fc9ae108e8c67df01124278ff18a9dcbca0b3da30f7f76687615e"
+    },
+    {
+      "path": "docs/b187-volume-ping.md",
+      "size": 8412,
+      "sha256": "0743aa64b488dbeb2121118b76d3888e199227f51dfa649aa3bae7f2c47a3e55"
+    },
+    {
+      "path": "docs/emulator-firmware.md",
+      "size": 13632,
+      "sha256": "473e625ccc2530edf1b013f94e466c1ff952b2c3c178b10052b06907987b1adb"
+    },
+    {
+      "path": "docs/investigation.md",
+      "size": 14718,
+      "sha256": "d86ea0197ec51a5b0552d04d6053ae010018f86517b43976199c548a5cc57494"
+    },
+    {
+      "path": "docs/repository-contents.md",
+      "size": 2006,
+      "sha256": "cffa16e3d8fe71f19fda35c779063b1202d4d6f66ac7110f49a5703afcaabf3e"
+    },
+    {
+      "path": "examples/on_trigger.py",
+      "size": 306,
+      "sha256": "2616ff1bf77e90c04480fd9c8e58e6d2f5e6a16b68cae2a2290c91f2e3a40439"
+    },
+    {
+      "path": "examples/routes.json",
+      "size": 50,
+      "sha256": "8f64f5fb1efc161ea25657a13206278937d3d64dff4648344b6a5e94cf76d448"
+    },
+    {
+      "path": "research/build-instrumented.py",
+      "size": 2000,
+      "sha256": "8644b48bc8e6ef6402eb6aa8781147e8433544b96b95ac82f90fb1828ee6c730"
+    },
+    {
+      "path": "research/patch-clone-key-check.py",
+      "size": 1048,
+      "sha256": "8bf604dc8dce73b6606c6b2cdb0c208a4094e4cee55a222ae6ea4f6954384707"
+    },
+    {
+      "path": "tests/test_event_gate.py",
+      "size": 606,
+      "sha256": "4884588cd305eb1f3a2421686626d9368356211efc871e7bcd2f02920da7729b"
+    },
+    {
+      "path": "tests/test_protocol.py",
+      "size": 1988,
+      "sha256": "31597ec37e2e15c4c9e72241ff7f3fa39d3c3f528c15ddd41ebbd35efc8486ac"
+    },
+    {
+      "path": "tests/test_repack_b187.py",
+      "size": 1780,
+      "sha256": "856b4e8f183e8d778ad1284dad0b83dfaa2b0851ce4938e41a6caec9035aa65a"
+    },
+    {
+      "path": "tests/test_stock_ota_log.py",
+      "size": 1960,
+      "sha256": "b5517befbfc512fef3480164b89fcd7fd160dca79b6ebbcbf6170dced8fd02eb"
+    },
+    {
+      "path": "tests/test_unpack_bes.py",
+      "size": 1472,
+      "sha256": "518e4ab2cefcd8493990b982dd8b0f31fac0818cbd779b3e4dcc7addbd466715"
+    },
+    {
+      "path": "tests/test_volume_ping.py",
+      "size": 5614,
+      "sha256": "3ce0198682b6101f36e6cb9af2734d4388e486e0a93a31359136a9371ca7dc97"
+    },
+    {
+      "path": "tools/adb_proxy.py",
+      "size": 1008,
+      "sha256": "1af320f63344d38bda89a8a81731e9522edd93ffde10725fef3dac5e562f2524"
+    },
+    {
+      "path": "tools/buds.py",
+      "size": 5175,
+      "sha256": "3d04e0a57b88cd2482cecfbdb58e601c7a473a130c130e950d8412ed6b79e7f5"
+    },
+    {
+      "path": "tools/capture_ota.py",
+      "size": 851,
+      "sha256": "b35528d81c5ea5979f1d2afd7d46722e30c24729dc77972be211b94a79e4e26e"
+    },
+    {
+      "path": "tools/disassemble_thumb.py",
+      "size": 1367,
+      "sha256": "65ff4b04466726e55bb5297582bf50f00e12c8a607df2496d37a57aa83bd0210"
+    },
+    {
+      "path": "tools/download_current_firmware.py",
+      "size": 1502,
+      "sha256": "15d347547ae3b66ce71a76e978e20198e5290d377f80819a2a9158fc7011f7b8"
+    },
+    {
+      "path": "tools/event_gate.py",
+      "size": 462,
+      "sha256": "a08ccb3bd67f1524d858fc93c8836084bc7aedc0746c4d771c30e2adf74f7ee1"
+    },
+    {
+      "path": "tools/fetch_firmware.py",
+      "size": 5446,
+      "sha256": "fca77f4b3b5ba5e0db046bda91080d60596c32646216e3a4753f949960d18a5b"
+    },
+    {
+      "path": "tools/inspect_firmware.py",
+      "size": 1785,
+      "sha256": "13b0ddcefae39865f37df1d68f4c8fa5aac248ee5d174114f1d796369bde8dfd"
+    },
+    {
+      "path": "tools/inspect_native.py",
+      "size": 759,
+      "sha256": "fd84509fb75593c4aecce7f741302ddbe74ec814bd33c1df6758c1139507e035"
+    },
+    {
+      "path": "tools/patch_volume_ping.py",
+      "size": 3820,
+      "sha256": "aa1288564e825a3f5b4223257185c1a3b9c5799f47fce92916f277b7488b8100"
+    },
+    {
+      "path": "tools/probe_firmware.js",
+      "size": 2592,
+      "sha256": "148b5f4b305a5a02f9abd68b4b8d117059f4d93082c36d0ab0108c08effb1dda"
+    },
+    {
+      "path": "tools/protocol.py",
+      "size": 2736,
+      "sha256": "33e450ca21f6592fbd357172599ad06d622a03021cb851ad84ab7e923e39c73b"
+    },
+    {
+      "path": "tools/repack_b187_mute.py",
+      "size": 4349,
+      "sha256": "14e94a06cb552a4bdbd3e214feb39f444449390ca6726ba418cac0977b3d4548"
+    },
+    {
+      "path": "tools/run_instrumentation.py",
+      "size": 2180,
+      "sha256": "0ba4d0f086981b63545c20abed7f0462a59dae3e5feadb564e412b657816bd63"
+    },
+    {
+      "path": "tools/stage_b187_mute.py",
+      "size": 3801,
+      "sha256": "5967c61fe786b64a8cca4327397e06c1abf7b7e5aca6bc5af4d3cf684578e2db"
+    },
+    {
+      "path": "tools/trace_dart_literals.py",
+      "size": 1671,
+      "sha256": "bd36eb252b05e782c963380f2be8db4ea9c8aa661063781cd89dfec66b1d230d"
+    },
+    {
+      "path": "tools/trace_flutter_ota.py",
+      "size": 3759,
+      "sha256": "ed26bae4c59d3f6e00d0d48442df2a643679247fe0336c4d15d98e51b85eb184"
+    },
+    {
+      "path": "tools/unpack_bes.py",
+      "size": 2314,
+      "sha256": "ca3bd305242e46bc76b1f2e7a6bb70271d1bb9e828c17a7909d11b5c46edb3f4"
+    },
+    {
+      "path": "tools/verify_stock_ota_log.py",
+      "size": 5561,
+      "sha256": "cb695c77c5af49671efe0927aaeb6116911733fe7a4be785af34135be129ed6f"
+    }
+  ]
+}

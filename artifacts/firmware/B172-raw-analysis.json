@@ -1,0 +1,2474 @@
+{
+  "file": "artifacts/firmware/B172-0.0.8.1-decompressed.bin",
+  "size": 2468588,
+  "sha256": "0e5712d2aa7bc20676681e2fb114ae861867d83f4f4ce5b523682127efaa026b",
+  "first_32_bytes": "ffffffff00000400000000000ca9272c0f4800470f4880f308880f4880f30a88",
+  "trailing_4_bytes": "0000022c",
+  "app_bes_transfer_size": 2468608,
+  "app_bes_transfer_crc32": "c2fcfaae",
+  "candidate_vector_tables_unverified": [
+    {
+      "offset": "0xea8",
+      "initial_sp": "0x20082320",
+      "reset_vector": "0x20084689"
+    },
+    {
+      "offset": "0xec0",
+      "initial_sp": "0x20084688",
+      "reset_vector": "0x200adc3d"
+    },
+    {
+      "offset": "0x124c",
+      "initial_sp": "0x20082320",
+      "reset_vector": "0x200adc6d"
+    },
+    {
+      "offset": "0x15d8",
+      "initial_sp": "0x20180000",
+      "reset_vector": "0xc021435"
+    },
+    {
+      "offset": "0x1b14",
+      "initial_sp": "0x20081240",
+      "reset_vector": "0x2b014603"
+    },
+    {
+      "offset": "0x2268",
+      "initial_sp": "0x200823a8",
+      "reset_vector": "0x2400b513"
+    },
+    {
+      "offset": "0x2444",
+      "initial_sp": "0x20082370",
+      "reset_vector": "0x2008128d"
+    },
+    {
+      "offset": "0x381c",
+      "initial_sp": "0x20081860",
+      "reset_vector": "0x20081875"
+    },
+    {
+      "offset": "0x3838",
+      "initial_sp": "0x200818d8",
+      "reset_vector": "0x200818f5"
+    },
+    {
+      "offset": "0x38d0",
+      "initial_sp": "0x20081860",
+      "reset_vector": "0x20081875"
+    },
+    {
+      "offset": "0x395c",
+      "initial_sp": "0x20081860",
+      "reset_vector": "0x20081875"
+    },
+    {
+      "offset": "0x3b60",
+      "initial_sp": "0x20081860",
+      "reset_vector": "0x20081875"
+    },
+    {
+      "offset": "0x3ba4",
+      "initial_sp": "0x20081860",
+      "reset_vector": "0x20081875"
+    },
+    {
+      "offset": "0x3be0",
+      "initial_sp": "0x20081860",
+      "reset_vector": "0x20081875"
+    },
+    {
+      "offset": "0x3c38",
+      "initial_sp": "0x20081860",
+      "reset_vector": "0x20081875"
+    },
+    {
+      "offset": "0x3c7c",
+      "initial_sp": "0x20081860",
+      "reset_vector": "0x20081875"
+    },
+    {
+      "offset": "0x3d14",
+      "initial_sp": "0x20081860",
+      "reset_vector": "0x20081875"
+    },
+    {
+      "offset": "0x3d78",
+      "initial_sp": "0x20081860",
+      "reset_vector": "0x20081875"
+    },
+    {
+      "offset": "0x3de4",
+      "initial_sp": "0x20081860",
+      "reset_vector": "0x20081875"
+    },
+    {
+      "offset": "0x4c3c",
+      "initial_sp": "0x20082430",
+      "reset_vector": "0x200824b1"
+    },
+    {
+      "offset": "0x4cd4",
+      "initial_sp": "0x20082438",
+      "reset_vector": "0x20081aad"
+    },
+    {
+      "offset": "0x4d4c",
+      "initial_sp": "0x20082438",
+      "reset_vector": "0x20081b11"
+    },
+    {
+      "offset": "0x4df4",
+      "initial_sp": "0x20082438",
+      "reset_vector": "0x20081b2f"
+    },
+    {
+      "offset": "0x4e7c",
+      "initial_sp": "0x200820d8",
+      "reset_vector": "0x20081b3d"
+    },
+    {
+      "offset": "0x57ac",
+      "initial_sp": "0x20081bd8",
+      "reset_vector": "0x20081be1"
+    },
+    {
+      "offset": "0x57d8",
+      "initial_sp": "0x20081d00",
+      "reset_vector": "0x20081d0b"
+    },
+    {
+      "offset": "0x5944",
+      "initial_sp": "0x20082438",
+      "reset_vector": "0x20082057"
+    },
+    {
+      "offset": "0x5b98",
+      "initial_sp": "0x20081e98",
+      "reset_vector": "0x20081eb1"
+    },
+    {
+      "offset": "0x62d0",
+      "initial_sp": "0x200845c8",
+      "reset_vector": "0x200845cb"
+    },
+    {
+      "offset": "0x67d8",
+      "initial_sp": "0x200822d8",
+      "reset_vector": "0x20082265"
+    },
+    {
+      "offset": "0x6a18",
+      "initial_sp": "0x200845e8",
+      "reset_vector": "0x200845cb"
+    },
+    {
+      "offset": "0x7188",
+      "initial_sp": "0x20092110",
+      "reset_vector": "0x2001e7b5"
+    },
+    {
+      "offset": "0x814c",
+      "initial_sp": "0x202c5838",
+      "reset_vector": "0x20524353"
+    },
+    {
+      "offset": "0x8158",
+      "initial_sp": "0x202c5838",
+      "reset_vector": "0x20524343"
+    },
+    {
+      "offset": "0x8634",
+      "initial_sp": "0x20545220",
+      "reset_vector": "0x20717269"
+    },
+    {
+      "offset": "0x9cf0",
+      "initial_sp": "0x2000bdd0",
+      "reset_vector": "0x2b024917"
+    },
+    {
+      "offset": "0xb4dc",
+      "initial_sp": "0x200934b0",
+      "reset_vector": "0x200933a9"
+    },
+    {
+      "offset": "0xc6d0",
+      "initial_sp": "0x20093528",
+      "reset_vector": "0x20093535"
+    },
+    {
+      "offset": "0x11ec0",
+      "initial_sp": "0x20095f20",
+      "reset_vector": "0x20095f31"
+    },
+    {
+      "offset": "0x12138",
+      "initial_sp": "0x20096028",
+      "reset_vector": "0x20096001"
+    },
+    {
+      "offset": "0x12430",
+      "initial_sp": "0x200cc690",
+      "reset_vector": "0x20096219"
+    },
+    {
+      "offset": "0x1243c",
+      "initial_sp": "0x20096080",
+      "reset_vector": "0x200960c7"
+    },
+    {
+      "offset": "0x12448",
+      "initial_sp": "0x20096138",
+      "reset_vector": "0x20096161"
+    },
+    {
+      "offset": "0x1281c",
+      "initial_sp": "0x20096318",
+      "reset_vector": "0x2009628d"
+    },
+    {
+      "offset": "0x12994",
+      "initial_sp": "0x200cd780",
+      "reset_vector": "0x2009638b"
+    },
+    {
+      "offset": "0x13a58",
+      "initial_sp": "0x20081860",
+      "reset_vector": "0x20081875"
+    },
+    {
+      "offset": "0x13cc0",
+      "initial_sp": "0x203c4280",
+      "reset_vector": "0x2060f8cb"
+    },
+    {
+      "offset": "0x13e80",
+      "initial_sp": "0x200adf20",
+      "reset_vector": "0x2c1b103f"
+    },
+    {
+      "offset": "0x14044",
+      "initial_sp": "0x20082330",
+      "reset_vector": "0x2c1f6e37"
+    },
+    {
+      "offset": "0x146e0",
+      "initial_sp": "0x2001b290",
+      "reset_vector": "0x2001b27d"
+    },
+    {
+      "offset": "0x14730",
+      "initial_sp": "0x2001b290",
+      "reset_vector": "0x2001b27d"
+    },
+    {
+      "offset": "0x1727c",
+      "initial_sp": "0x20092fe0",
+      "reset_vector": "0x20092fe5"
+    },
+    {
+      "offset": "0x17288",
+      "initial_sp": "0x20092ff0",
+      "reset_vector": "0x20092ff9"
+    },
+    {
+      "offset": "0x172e0",
+      "initial_sp": "0x20093080",
+      "reset_vector": "0x20093087"
+    },
+    {
+      "offset": "0x17308",
+      "initial_sp": "0x200930d8",
+      "reset_vector": "0x200930df"
+    },
+    {
+      "offset": "0x17488",
+      "initial_sp": "0x203a7470",
+      "reset_vector": "0x21007025"
+    },
+    {
+      "offset": "0x17514",
+      "initial_sp": "0x20706320",
+      "reset_vector": "0x206d656d"
+    },
+    {
+      "offset": "0x1ad8c",
+      "initial_sp": "0x20797470",
+      "reset_vector": "0x25206e69"
+    },
+    {
+      "offset": "0x1af7c",
+      "initial_sp": "0x20732500",
+      "reset_vector": "0x20727265"
+    },
+    {
+      "offset": "0x2fcb4",
+      "initial_sp": "0x20096c60",
+      "reset_vector": "0x20096bf5"
+    },
+    {
+      "offset": "0x2fcbc",
+      "initial_sp": "0x20096c10",
+      "reset_vector": "0x20096c2f"
+    },
+    {
+      "offset": "0x2fef4",
+      "initial_sp": "0x20096b38",
+      "reset_vector": "0x20096cbf"
+    },
+    {
+      "offset": "0x2ff18",
+      "initial_sp": "0x20096d48",
+      "reset_vector": "0x20096d5d"
+    },
+    {
+      "offset": "0x300d4",
+      "initial_sp": "0x20096d48",
+      "reset_vector": "0x20096d5d"
+    },
+    {
+      "offset": "0x36ed8",
+      "initial_sp": "0x200996e8",
+      "reset_vector": "0x2aaa1555"
+    },
+    {
+      "offset": "0x37250",
+      "initial_sp": "0x200f32b8",
+      "reset_vector": "0xc00f04f"
+    },
+    {
+      "offset": "0x3a35c",
+      "initial_sp": "0x200d0e78",
+      "reset_vector": "0x200d0e79"
+    },
+    {
+      "offset": "0x3a484",
+      "initial_sp": "0x200a0730",
+      "reset_vector": "0x200d0df1"
+    },
+    {
+      "offset": "0x3a5fc",
+      "initial_sp": "0x200f4760",
+      "reset_vector": "0x2c269a63"
+    },
+    {
+      "offset": "0x3a604",
+      "initial_sp": "0x200f4778",
+      "reset_vector": "0x2c269a73"
+    },
+    {
+      "offset": "0x3a61c",
+      "initial_sp": "0x200f4758",
+      "reset_vector": "0x2c1c8625"
+    },
+    {
+      "offset": "0x3b2fc",
+      "initial_sp": "0x200c4b10",
+      "reset_vector": "0x23006819"
+    },
+    {
+      "offset": "0x3d0f4",
+      "initial_sp": "0x20008ff0",
+      "reset_vector": "0xf00f1bb"
+    },
+    {
+      "offset": "0x42bb4",
+      "initial_sp": "0x2004bd70",
+      "reset_vector": "0x8d2e7d1"
+    },
+    {
+      "offset": "0x45a4c",
+      "initial_sp": "0x200f08c0",
+      "reset_vector": "0x2001b467"
+    },
+    {
+      "offset": "0x45a78",
+      "initial_sp": "0x200f08c0",
+      "reset_vector": "0x2001b497"
+    },
+    {
+      "offset": "0x45adc",
+      "initial_sp": "0x200f08b8",
+      "reset_vector": "0x2001b4c3"
+    },
+    {
+      "offset": "0x460a0",
+      "initial_sp": "0x200f08c0",
+      "reset_vector": "0x2001b78f"
+    },
+    {
+      "offset": "0x46374",
+      "initial_sp": "0x2001b9b0",
+      "reset_vector": "0x2001b809"
+    },
+    {
+      "offset": "0x46380",
+      "initial_sp": "0x200f0950",
+      "reset_vector": "0x2001b845"
+    },
+    {
+      "offset": "0x466dc",
+      "initial_sp": "0x2001b298",
+      "reset_vector": "0x2001b2bf"
+    },
+    {
+      "offset": "0x46e5c",
+      "initial_sp": "0x200f0980",
+      "reset_vector": "0x2001b565"
+    },
+    {
+      "offset": "0x46e9c",
+      "initial_sp": "0x200f0968",
+      "reset_vector": "0x2001b5b3"
+    },
+    {
+      "offset": "0x47110",
+      "initial_sp": "0x2001b8e0",
+      "reset_vector": "0x2001b8f7"
+    },
+    {
+      "offset": "0x47118",
+      "initial_sp": "0x2001b938",
+      "reset_vector": "0x2001b919"
+    },
+    {
+      "offset": "0x47180",
+      "initial_sp": "0x200f0980",
+      "reset_vector": "0x2001b981"
+    },
+    {
+      "offset": "0x474fc",
+      "initial_sp": "0x200f0980",
+      "reset_vector": "0x2001bb85"
+    },
+    {
+      "offset": "0x49ea8",
+      "initial_sp": "0x205ff300",
+      "reset_vector": "0x215ff301"
+    },
+    {
+      "offset": "0x4aac4",
+      "initial_sp": "0x2001f468",
+      "reset_vector": "0x2121f9ef"
+    },
+    {
+      "offset": "0x50eb8",
+      "initial_sp": "0x20020500",
+      "reset_vector": "0xc00f04f"
+    },
+    {
+      "offset": "0x51174",
+      "initial_sp": "0x2000f8c8",
+      "reset_vector": "0xf00f1b9"
+    },
+    {
+      "offset": "0x56240",
+      "initial_sp": "0x2001b818",
+      "reset_vector": "0x2001b879"
+    },
+    {
+      "offset": "0x56248",
+      "initial_sp": "0x200a5fb0",
+      "reset_vector": "0x2001b7c3"
+    },
+    {
+      "offset": "0x5660c",
+      "initial_sp": "0x2001b418",
+      "reset_vector": "0x2001b30b"
+    },
+    {
+      "offset": "0x56644",
+      "initial_sp": "0x2001b460",
+      "reset_vector": "0x2001b475"
+    },
+    {
+      "offset": "0x56654",
+      "initial_sp": "0x2001b4d8",
+      "reset_vector": "0x2001b4f9"
+    },
+    {
+      "offset": "0x56660",
+      "initial_sp": "0x2001b538",
+      "reset_vector": "0x2001b55b"
+    },
+    {
+      "offset": "0x56678",
+      "initial_sp": "0x2001b5e8",
+      "reset_vector": "0x2001b605"
+    },
+    {
+      "offset": "0x566b0",
+      "initial_sp": "0x2001b7c0",
+      "reset_vector": "0x2001b2ab"
+    },
+    {
+      "offset": "0x566c0",
+      "initial_sp": "0x2001b788",
+      "reset_vector": "0x2001b42d"
+    }
+  ],
+  "interesting_strings": [
+    {
+      "offset": "0xaf47b",
+      "text": ",BEST]o"
+    },
+    {
+      "offset": "0xb33ef",
+      "text": " BESTm"
+    },
+    {
+      "offset": "0x1821e4",
+      "text": "[%s] Set default volume table"
+    },
+    {
+      "offset": "0x182202",
+      "text": "[%s] Set new volume table"
+    },
+    {
+      "offset": "0x182259",
+      "text": "hal_codec_set_dac_volume_table"
+    },
+    {
+      "offset": "0x182278",
+      "text": "hal_codec_get_dac_volume"
+    },
+    {
+      "offset": "0x18232b",
+      "text": "%s: max_gain=0x%x"
+    },
+    {
+      "offset": "0x18233d",
+      "text": "update max_gain:%d, ini=%d,offs=%d,top=%d"
+    },
+    {
+      "offset": "0x1823f6",
+      "text": "%s: Cannot set play chan vol with AUDIO_OUTPUT_SW_GAIN"
+    },
+    {
+      "offset": "0x1827bd",
+      "text": "update vol: %d, sdac_volume: %d"
+    },
+    {
+      "offset": "0x182818",
+      "text": "CALIB_ANA_DC: L=0x%x, R=0x%x, gain=0x%x"
+    },
+    {
+      "offset": "0x1831ef",
+      "text": " ana: set anc adc gain: type=%d"
+    },
+    {
+      "offset": "0x18320f",
+      "text": "ana: clear anc adc gain: type=%d"
+    },
+    {
+      "offset": "0x183230",
+      "text": "ana: update anc adc gain: type=%d gain=%d/%d"
+    },
+    {
+      "offset": "0x184195",
+      "text": "../../platform/drivers/bt/best1501p/bt_drv_reg_op.cpp"
+    },
+    {
+      "offset": "0x1844eb",
+      "text": "BT_REG_OP:afh rxgain:%d"
+    },
+    {
+      "offset": "0x184504",
+      "text": "BT_REG_OP:afh rxgain error:%d"
+    },
+    {
+      "offset": "0x184ad3",
+      "text": "bt_drv_reg_op_ble_rx_gain_thr_tbl_set"
+    },
+    {
+      "offset": "0x184af9",
+      "text": "bt_drv_reg_op_ble_rx_gain_thr_tbl_2m_set"
+    },
+    {
+      "offset": "0x184b22",
+      "text": "bt_drv_reg_op_ecc_rx_gain_thr_tbl_set"
+    },
+    {
+      "offset": "0x184d1a",
+      "text": "btdrv_regop_rx_gain_ths_3m_init"
+    },
+    {
+      "offset": "0x184d88",
+      "text": "id=%d,clkn=0x%x,refs=0x%x,chanl=%d,snr=%d,gain=%d,sta=0x%0x,type=%x,fa=%d"
+    },
+    {
+      "offset": "0x1855f8",
+      "text": "FINAL DC best_i=%d,best_q=%d"
+    },
+    {
+      "offset": "0x185615",
+      "text": "FINAL limit DC best_i=%d,best_q=%d,e=%d,energy_min=%d"
+    },
+    {
+      "offset": "0x18564b",
+      "text": "FINAL %d,best_g=%d,best_p=%d,e=%d,energy_min=%d"
+    },
+    {
+      "offset": "0x18605d",
+      "text": "btdrv_rf_rx_dcdc_tone_calibration"
+    },
+    {
+      "offset": "0x18a940",
+      "text": "em_bt_pwrcntl_rxgain_setf"
+    },
+    {
+      "offset": "0x190bfe",
+      "text": "BT=0x%x,rssi=%d,gain=%d,3m_gain=%d"
+    },
+    {
+      "offset": "0x190c21",
+      "text": "BLE rssi=%d,gain=%d"
+    },
+    {
+      "offset": "0x1a08a0",
+      "text": "wear_diff0_up %d down:%d"
+    },
+    {
+      "offset": "0x1a08bc",
+      "text": "wear_diff1_up %d down:%d"
+    },
+    {
+      "offset": "0x1a08d8",
+      "text": "wear_snr0_down %d snr1:%d"
+    },
+    {
+      "offset": "0x1a0abc",
+      "text": "capsensor_cal_offset wear_offset0 = %d"
+    },
+    {
+      "offset": "0x1a0ae4",
+      "text": "capsensor_cal_offset wear_offset1 = %d"
+    },
+    {
+      "offset": "0x1a0b0c",
+      "text": "capsensor_cal_offset wear_max0 = %d"
+    },
+    {
+      "offset": "0x1a0b30",
+      "text": "capsensor_cal_offset wear_max1 = %d"
+    },
+    {
+      "offset": "0x1a0b54",
+      "text": "capsensor_cal_offset wear_min0 = %d"
+    },
+    {
+      "offset": "0x1a0b78",
+      "text": "capsensor_cal_offset wear_min1 = %d"
+    },
+    {
+      "offset": "0x1a0b9c",
+      "text": "capsensor_cal_offset wear_noise0 = %d"
+    },
+    {
+      "offset": "0x1a0bc4",
+      "text": "capsensor_cal_offset wear_noise1 = %d"
+    },
+    {
+      "offset": "0x1a0d08",
+      "text": "capsensor_cal_diff wear_diff0 = %d"
+    },
+    {
+      "offset": "0x1a0d2c",
+      "text": "capsensor_cal_diff wear_diff1 = %d"
+    },
+    {
+      "offset": "0x1a0d50",
+      "text": "capsensor_cal_diff wear noise = 0, return"
+    },
+    {
+      "offset": "0x1a0d7c",
+      "text": "capsensor_cal_diff wear_snr0 = %d"
+    },
+    {
+      "offset": "0x1a0da0",
+      "text": "capsensor_cal_diff wear_snr1 = %d"
+    },
+    {
+      "offset": "0x1a0dc4",
+      "text": "capsensor_cal_diff wear_snr_result = %d"
+    },
+    {
+      "offset": "0x1a0dec",
+      "text": "capsensor_cal_diff wear_diff0_result = %d"
+    },
+    {
+      "offset": "0x1a0e18",
+      "text": "capsensor_cal_diff wear_diff1_result = %d"
+    },
+    {
+      "offset": "0x1a1c6d",
+      "text": "CHIP=best1501p"
+    },
+    {
+      "offset": "0x1a32a9",
+      "text": "RingTone"
+    },
+    {
+      "offset": "0x1a3c61",
+      "text": "[Notify]Avrcp callback event=%d"
+    },
+    {
+      "offset": "0x1a3c91",
+      "text": "tws_ibrt_log:AVRCP callback event=0x%x"
+    },
+    {
+      "offset": "0x1a47fa",
+      "text": "FA RSSI=%d,RX gain =%d"
+    },
+    {
+      "offset": "0x1a4b13",
+      "text": "app_ibrt_profile_protect_timer_init: (d%x) create avrcp delay conn timer fail!"
+    },
+    {
+      "offset": "0x1a4bfd",
+      "text": "app_ibrt_profile_protect_timer_init: (d%x) create avrcp delay disc timer fail!"
+    },
+    {
+      "offset": "0x1a6854",
+      "text": "(d%x)ibrt_core:HFP speaker volume"
+    },
+    {
+      "offset": "0x1a689e",
+      "text": "ibrt_core:avrcp cb mobile info is null"
+    },
+    {
+      "offset": "0x1a68c5",
+      "text": "ibrt_core:avrcp_callback event=%d,addr: %02x:%02x:*:*:*:%02x"
+    },
+    {
+      "offset": "0x1a6902",
+      "text": "(d%x)ibrt_core:AVRCP profile connected, addr: %02x%02x***%02x"
+    },
+    {
+      "offset": "0x1a6940",
+      "text": "(d%x)ibrt_core:AVRCP profile disconnected"
+    },
+    {
+      "offset": "0x1a696a",
+      "text": "(d%x)ibrt_core:AVRCP callback event=0x%x"
+    },
+    {
+      "offset": "0x1a6c51",
+      "text": "app_tws_profile_app_avrcp_data_sync"
+    },
+    {
+      "offset": "0x1a6c75",
+      "text": "%s avrcp is disconnected"
+    },
+    {
+      "offset": "0x1a6c8e",
+      "text": "avrcp not connect"
+    },
+    {
+      "offset": "0x1a6cbf",
+      "text": "profile avrcp tx=%d"
+    },
+    {
+      "offset": "0x1a6f1d",
+      "text": "ibrt_core:AVRCP profile connected, basic_profiles %04x %04x"
+    },
+    {
+      "offset": "0x1a827b",
+      "text": "app_ibrt_conn_set_local_volume_info"
+    },
+    {
+      "offset": "0x1a97a2",
+      "text": "Prompt trigger time was not set-up, so no need to clear it."
+    },
+    {
+      "offset": "0x1a98b0",
+      "text": "Prompt TRIGGER ERROR !!!"
+    },
+    {
+      "offset": "0x1aa976",
+      "text": "ibrt_core:sync a2dp status completed type:%d samplerate:%d localVolume:%d stream_state:%d"
+    },
+    {
+      "offset": "0x1aa9fc",
+      "text": "ibrt_core: sync hfp status: localVolume:%d callsetup_state:%d call_state:%d callhold_state:%d"
+    },
+    {
+      "offset": "0x1ab03f",
+      "text": "(d%d)Get prompt 0x%x playing request from peer dev."
+    },
+    {
+      "offset": "0x1ab47e",
+      "text": "app_ibrt_sync_volume_info_send"
+    },
+    {
+      "offset": "0x1ab49d",
+      "text": "ibrt_core:ibrt master start tws_switch, avrcp trans %d %d"
+    },
+    {
+      "offset": "0x1ab75e",
+      "text": "ibrt_core:sync a2dp send_status completed type:%d samplerate:%d stream_state:%d localVolume:%d"
+    },
+    {
+      "offset": "0x1ab7be",
+      "text": "ibrt_core:hfp_status_sync volume:%d"
+    },
+    {
+      "offset": "0x1ab8f8",
+      "text": "sync a2dp status rsp, stream_state:%d codec_type:%d localVolume:%d, triStatus:%d"
+    },
+    {
+      "offset": "0x1ab9a4",
+      "text": "ibrt_a2dp_status avrcp playstat mismatch need resync: %d"
+    },
+    {
+      "offset": "0x1ab9dd",
+      "text": "ibrt_a2dp_status volume mismatch need resync:%d"
+    },
+    {
+      "offset": "0x1abb58",
+      "text": "ibrt_hfp_status volume mismatch need resync:%d"
+    },
+    {
+      "offset": "0x1ac1d6",
+      "text": "(d%x) ibrt slave receive tws_switch: avrcp trans %d %d, last paused d%xd%x"
+    },
+    {
+      "offset": "0x1ac5f1",
+      "text": "SYNC_VOLUME_INFO"
+    },
+    {
+      "offset": "0x1ac646",
+      "text": "SYNC_MIX_PROMPT_REQ"
+    },
+    {
+      "offset": "0x1ac65a",
+      "text": "STOP_PEER_PROMPT_REQ"
+    },
+    {
+      "offset": "0x1ac66f",
+      "text": "LET_PEER_PLAY_PROMPT"
+    },
+    {
+      "offset": "0x1ac84e",
+      "text": "FORWARD_PROMPT_PLAYING_REQ"
+    },
+    {
+      "offset": "0x1adc50",
+      "text": "IN_BOX_CLOSED"
+    },
+    {
+      "offset": "0x1adc5e",
+      "text": "IN_BOX_OPEN"
+    },
+    {
+      "offset": "0x1adc72",
+      "text": "OUT_BOX_WEARED"
+    },
+    {
+      "offset": "0x1adcc3",
+      "text": "PEER_WEAR_UP"
+    },
+    {
+      "offset": "0x1adcd0",
+      "text": "PEER_WEAR_DOWN"
+    },
+    {
+      "offset": "0x1ae7f9",
+      "text": "not allowed to start ibrt if local in box closed"
+    },
+    {
+      "offset": "0x1ae82a",
+      "text": "not allowed to start ibrt if peer in box closed"
+    },
+    {
+      "offset": "0x1ae9ee",
+      "text": "disallow reconnect mobile if erabud in box closed"
+    },
+    {
+      "offset": "0x1aeb57",
+      "text": "link %d disallow reconnect due to cfg without_reconnect_when_fetch_out_wear_up"
+    },
+    {
+      "offset": "0x1aeba6",
+      "text": "latest_disc_reason 0x08 reconnect timer running, refuse wearup/undock reconnect"
+    },
+    {
+      "offset": "0x1b1ca0",
+      "text": "conn_req_hdl:reject for already in box closed"
+    },
+    {
+      "offset": "0x1b3641",
+      "text": "already set tws nv role [%d]%s, do not update it again by addr"
+    },
+    {
+      "offset": "0x1b475f",
+      "text": " app_ibrt_keyboard_sync_volume_info_v2"
+    },
+    {
+      "offset": "0x1b54fc",
+      "text": "gfps_start_find_ringtone"
+    },
+    {
+      "offset": "0x1b5515",
+      "text": "gfps_stop_find_ringtone"
+    },
+    {
+      "offset": "0x1b72ab",
+      "text": "bc60cb9d-best1501p_ibrt"
+    },
+    {
+      "offset": "0x1b83a1",
+      "text": "volume = %d"
+    },
+    {
+      "offset": "0x1b8e54",
+      "text": "apply left psap gain ------"
+    },
+    {
+      "offset": "0x1b8fe4",
+      "text": "best2000_prod_test_anccfg_apply"
+    },
+    {
+      "offset": "0x1b99c6",
+      "text": "%s READ VOLUME IN NV SUCCESS vol:%d"
+    },
+    {
+      "offset": "0x1b99ea",
+      "text": "%s WRITE VOLUME IN NV SUCCESS vol:%d"
+    },
+    {
+      "offset": "0x1b9b0d",
+      "text": "nv_record_ble_read_volume_via_bdaddr"
+    },
+    {
+      "offset": "0x1b9b32",
+      "text": "nv_record_ble_write_volume_via_bdaddr"
+    },
+    {
+      "offset": "0x1bcd33",
+      "text": "av_en_tone_interrupt"
+    },
+    {
+      "offset": "0x1bcd48",
+      "text": "av_de_tone_interrupt"
+    },
+    {
+      "offset": "0x1bcd5d",
+      "text": "av_en_delay_prompt"
+    },
+    {
+      "offset": "0x1bcd70",
+      "text": "av_de_delay_prompt"
+    },
+    {
+      "offset": "0x1bcee6",
+      "text": "ar_volume_up"
+    },
+    {
+      "offset": "0x1bcef3",
+      "text": "ar_volume_down"
+    },
+    {
+      "offset": "0x1bcf02",
+      "text": "ar_volume_notify"
+    },
+    {
+      "offset": "0x1bcf13",
+      "text": "ar_volume_change"
+    },
+    {
+      "offset": "0x1bcf24",
+      "text": "ar_set_absolute_volume"
+    },
+    {
+      "offset": "0x1bcff8",
+      "text": "ib_send_volumeup"
+    },
+    {
+      "offset": "0x1bd009",
+      "text": "ib_send_volumedn"
+    },
+    {
+      "offset": "0x1bdb30",
+      "text": "bt_adapter_report_hfp_volume_change"
+    },
+    {
+      "offset": "0x1bdc2e",
+      "text": "bt_adapter_report_avrcp_connected"
+    },
+    {
+      "offset": "0x1bdc50",
+      "text": "bt_adapter_report_avrcp_disconnected"
+    },
+    {
+      "offset": "0x1bdc75",
+      "text": "bt_adapter_report_avrcp_status_changed"
+    },
+    {
+      "offset": "0x1bf669",
+      "text": "aob_vol_update_volume_info"
+    },
+    {
+      "offset": "0x1bf727",
+      "text": "%s con_lid %d, volume %d, mute %d, reason %d"
+    },
+    {
+      "offset": "0x1bf754",
+      "text": "aob_tws_sync_volume_status_handler"
+    },
+    {
+      "offset": "0x1bf78e",
+      "text": "aob_vol_get_real_time_volume"
+    },
+    {
+      "offset": "0x1bf859",
+      "text": "app_ble_audio_ring_tone_play"
+    },
+    {
+      "offset": "0x1bf876",
+      "text": "le_audio_policy:ringtone request focus fail/delay"
+    },
+    {
+      "offset": "0x1bfac1",
+      "text": "le_audio_policy,stop ringtone"
+    },
+    {
+      "offset": "0x1c1241",
+      "text": "d(%d) %s abandon the focus and stop the ringtone!"
+    },
+    {
+      "offset": "0x1c26ba",
+      "text": "avrcp_key = HFP_KEY_ANSWER_CALL"
+    },
+    {
+      "offset": "0x1c26db",
+      "text": "avrcp_key = HFP_KEY_HANGUP_CALL"
+    },
+    {
+      "offset": "0x1c26fc",
+      "text": "avrcp_key = HFP_KEY_REDIAL_LAST_CALL"
+    },
+    {
+      "offset": "0x1c2722",
+      "text": "avrcp_key = HFP_KEY_CHANGE_TO_PHONE"
+    },
+    {
+      "offset": "0x1c2747",
+      "text": "avrcp_key = HFP_KEY_ADD_TO_EARPHONE ver:%x"
+    },
+    {
+      "offset": "0x1c2773",
+      "text": "avrcp_key = HFP_KEY_MUTE"
+    },
+    {
+      "offset": "0x1c278d",
+      "text": "avrcp_key = HFP_KEY_CLEAR_MUTE"
+    },
+    {
+      "offset": "0x1c27ad",
+      "text": "avrcp_key = HFP_KEY_THREEWAY_HOLD_AND_ANSWER"
+    },
+    {
+      "offset": "0x1c27db",
+      "text": "avrcp_key = HFP_KEY_THREEWAY_HOLD_SWAP_ANSWER"
+    },
+    {
+      "offset": "0x1c280a",
+      "text": "avrcp_key = HFP_KEY_THREEWAY_HOLD_REL_INCOMING"
+    },
+    {
+      "offset": "0x1c283a",
+      "text": "avrcp_key = HFP_KEY_DUAL_HF_HANGUP_ANOTHER"
+    },
+    {
+      "offset": "0x1c2866",
+      "text": "avrcp_key = HFP_KEY_DUAL_HF_HANGUP_CURR_ANSWER_ANOTHER"
+    },
+    {
+      "offset": "0x1c289e",
+      "text": "avrcp_key = HFP_KEY_DUAL_HF_HOLD_CURR_ANSWER_ANOTHER"
+    },
+    {
+      "offset": "0x1c28d4",
+      "text": "avrcp_key = HFP_KEY_DUAL_HF_CHANGETOPHONE_ANSWER_ANOTHER"
+    },
+    {
+      "offset": "0x1c290e",
+      "text": "avrcp_key = HFP_KEY_DUAL_HF_CHANGETOPHONE_ANOTHER_ADDTOEARPHONE"
+    },
+    {
+      "offset": "0x1c294f",
+      "text": "avrcp_key = HFP_KEY_DUAL_HF_HANGUP_ANOTHER_ADDTOEARPHONE"
+    },
+    {
+      "offset": "0x1c2989",
+      "text": "avrcp_key = HFP_KEY_DUAL_HF_CHANGETOPHONE_ANSWER_CURR"
+    },
+    {
+      "offset": "0x1c29f6",
+      "text": "%s avrcp_key %d avrcp is not connected"
+    },
+    {
+      "offset": "0x1c2a1d",
+      "text": "(d%x) avrcp_key = AVRCP_KEY_STOP %p"
+    },
+    {
+      "offset": "0x1c2a41",
+      "text": "(d%x) avrcp_key = AVRCP_KEY_PLAY press %p"
+    },
+    {
+      "offset": "0x1c2a6b",
+      "text": "(d%x) avrcp_key = AVRCP_KEY_PAUSE press %p"
+    },
+    {
+      "offset": "0x1c2a96",
+      "text": "(d%x) avrcp_key = AVRCP_KEY_FORWARD %p"
+    },
+    {
+      "offset": "0x1c2abd",
+      "text": "(d%x) avrcp_key = AVRCP_KEY_BACKWARD %p"
+    },
+    {
+      "offset": "0x1c2ae5",
+      "text": "(d%x) avrcp_key = AVRCP_KEY_VOLUME_UP %p"
+    },
+    {
+      "offset": "0x1c2b0e",
+      "text": "(d%x) avrcp_key = AVRCP_KEY_VOLUME_DOWN %p"
+    },
+    {
+      "offset": "0x1c2b39",
+      "text": "(d%x) avrcp_key = AVRCP_KEY_FAST_FORWARD %p"
+    },
+    {
+      "offset": "0x1c2b65",
+      "text": "(d%x) avrcp_key = AVRCP_KEY_FAST_FORWARD_STOP %p"
+    },
+    {
+      "offset": "0x1c2b96",
+      "text": "(d%x) avrcp_key = AVRCP_KEY_REWIND_START %p"
+    },
+    {
+      "offset": "0x1c2bc2",
+      "text": "(d%x) avrcp_key = AVRCP_KEY_REWIND_STOP %p"
+    },
+    {
+      "offset": "0x1c2c7a",
+      "text": "avrcp_key %d the channel is not connected"
+    },
+    {
+      "offset": "0x1c2e23",
+      "text": " hfp_volume_local_set"
+    },
+    {
+      "offset": "0x1c2e77",
+      "text": "::HF_EVENT_SPEAKER_VOLUME  chan_id:%d,speaker gain = %d"
+    },
+    {
+      "offset": "0x1c2ec1",
+      "text": "d%x report hfp volume:%d"
+    },
+    {
+      "offset": "0x1c2fe1",
+      "text": "(d%x) ::HF_EVENT_RING_IND in-band-ring-tone %d"
+    },
+    {
+      "offset": "0x1c3330",
+      "text": "AT+XNTSF=B172"
+    },
+    {
+      "offset": "0x1c33fd",
+      "text": "%s audio_state:%d localVolume:%d  sync_ctx %d"
+    },
+    {
+      "offset": "0x1c3aa0",
+      "text": "app_bt_set_a2dp_current_abs_volume"
+    },
+    {
+      "offset": "0x1c3acf",
+      "text": "app_bt_a2dp_current_abs_volume_just_set"
+    },
+    {
+      "offset": "0x1c3b3e",
+      "text": "%s sco_prompt_play_mode %d %d"
+    },
+    {
+      "offset": "0x1c3bc8",
+      "text": "app_bt_a2dp_abs_volume_mix_version_handled"
+    },
+    {
+      "offset": "0x1c3c0c",
+      "text": "app_bt_get_a2dp_current_abs_volume"
+    },
+    {
+      "offset": "0x1c3e0a",
+      "text": "(conn state strming playstat avrcp)="
+    },
+    {
+      "offset": "0x1c3f22",
+      "text": "%s RSSI=%d,RX gain =%d,Piconet CLK=0x%x"
+    },
+    {
+      "offset": "0x1c45e3",
+      "text": "app_bt_avrcp_set_volume_change_trans_id"
+    },
+    {
+      "offset": "0x1c4628",
+      "text": "app_bt_avrcp_set_ctl_trans_id"
+    },
+    {
+      "offset": "0x1c4727",
+      "text": " app_bt_restore_avrcp_app_ctx state %d report %d trans_id %d default abs %d playback %d"
+    },
+    {
+      "offset": "0x1c47b2",
+      "text": " headset to mobile RSSI:%d dBm, rx gain=%d"
+    },
+    {
+      "offset": "0x1c517a",
+      "text": "app_bt_a2dp_send_volume_change_handler"
+    },
+    {
+      "offset": "0x1c51a1",
+      "text": "(d%x) %s volume_report %02x vol %d"
+    },
+    {
+      "offset": "0x1c5445",
+      "text": "phone actively connects headphoness, wait phone conn avrcp"
+    },
+    {
+      "offset": "0x1c55f1",
+      "text": "%s dont close avrcp due to disc a2dp only %d"
+    },
+    {
+      "offset": "0x1c561e",
+      "text": "%s dont close avrcp due to sdp fail"
+    },
+    {
+      "offset": "0x1c57cf",
+      "text": " a2dp_volume_local_get"
+    },
+    {
+      "offset": "0x1c581b",
+      "text": " a2dp_abs_volume_get"
+    },
+    {
+      "offset": "0x1c5847",
+      "text": " a2dp_volume_set"
+    },
+    {
+      "offset": "0x1c5879",
+      "text": "a2dp_volume_set_local_vol"
+    },
+    {
+      "offset": "0x1c58b0",
+      "text": "%s,stream_state:[%d]->[%d], codec_type:%d localVolume:%d, recheck:0x%x"
+    },
+    {
+      "offset": "0x1c595f",
+      "text": " avrcp_get_media_status"
+    },
+    {
+      "offset": "0x1c5977",
+      "text": "avrcp_set_media_status"
+    },
+    {
+      "offset": "0x1c598e",
+      "text": "avrcp device channel must match"
+    },
+    {
+      "offset": "0x1c59ae",
+      "text": "(d%x) initial volume %d %d"
+    },
+    {
+      "offset": "0x1c5a14",
+      "text": "(d%x) ::AVRCP_EVENT_DISCONNECT"
+    },
+    {
+      "offset": "0x1c5a33",
+      "text": "(d%x) ::avrcp_callback_CT AVRCP_EVENT_RESPONSE op=0x%x[0x30=GET_PLAY_STATUS],status=%x %x"
+    },
+    {
+      "offset": "0x1c5a8d",
+      "text": "avrcp panel cnf wrong"
+    },
+    {
+      "offset": "0x1c5ab7",
+      "text": "(d%x) ::avrcp_callback_CT get_capabilities_rsp eventmask=%x"
+    },
+    {
+      "offset": "0x1c5b06",
+      "text": "(d%x) ::avrcp_callback_CT NOTIFY RSP playback_changed_status =%x"
+    },
+    {
+      "offset": "0x1c5b47",
+      "text": "(d%x) ::avrcp_callback_CT get_play_status_rsp playback_changed_status =%d"
+    },
+    {
+      "offset": "0x1c5b91",
+      "text": "(d%x) ::avrcp_callback_CT receive CONTROL set_absolute_volume %d %d%% transId:%d"
+    },
+    {
+      "offset": "0x1c5be2",
+      "text": "(d%x) ::avrcp_callback_CT receive REGISTER volume_changed_status NOTIFY transId:%d"
+    },
+    {
+      "offset": "0x1c5c35",
+      "text": "(d%x) ::avrcp_callback_CT NOTIFY volume_changed_status =%x"
+    },
+    {
+      "offset": "0x1c5c70",
+      "text": "(d%x) ::avrcp_callback_CT NOTIFY playback_changed_status =%x"
+    },
+    {
+      "offset": "0x1c5d8c",
+      "text": "APP_SELF_RING_TONE_PLAY_TIMER1"
+    },
+    {
+      "offset": "0x1c5de9",
+      "text": "APP_AVRCP_PLAY_STATUS_WAIT_TIMER1"
+    },
+    {
+      "offset": "0x1c5e0b",
+      "text": "APP_AVRCP_QUICK_SWITCH_FILTER_TIMER1"
+    },
+    {
+      "offset": "0x1c5eaf",
+      "text": "APP_SELF_RING_TONE_PLAY_TIMER0"
+    },
+    {
+      "offset": "0x1c5f0c",
+      "text": "APP_AVRCP_PLAY_STATUS_WAIT_TIMER0"
+    },
+    {
+      "offset": "0x1c5f2e",
+      "text": "APP_AVRCP_QUICK_SWITCH_FILTER_TIMER0"
+    },
+    {
+      "offset": "0x1c6235",
+      "text": "d%x frame mute allow prompt"
+    },
+    {
+      "offset": "0x1c6251",
+      "text": "call always prompt media"
+    },
+    {
+      "offset": "0x1c633f",
+      "text": " audio_policy:d%x ringtone interupt a2dp result:%d"
+    },
+    {
+      "offset": "0x1c6372",
+      "text": "audio_policy:d%x ringtone mix with sco result:%d"
+    },
+    {
+      "offset": "0x1c63d0",
+      "text": "[audio_policy] mix ringtone"
+    },
+    {
+      "offset": "0x1c6424",
+      "text": "app_bt_audio_avrcp_quick_pause_delay_abandon_focus_handler"
+    },
+    {
+      "offset": "0x1c64aa",
+      "text": "app_bt_audio_ringtone_stream_ext_policy"
+    },
+    {
+      "offset": "0x1c64d2",
+      "text": "Current ringtone has the highest priority, req fail!"
+    },
+    {
+      "offset": "0x1c660d",
+      "text": "%s ori a2dp prompt %d%d%d,call_pause_a2dp:%d sco %d%d a2dp:%d%d"
+    },
+    {
+      "offset": "0x1c664d",
+      "text": "%s ori a2dp non-prompt %d%d%d call_pause_a2dp:%d sco %d%d%d"
+    },
+    {
+      "offset": "0x1c6b3a",
+      "text": "app_bt_audio_self_ring_tone_play"
+    },
+    {
+      "offset": "0x1c6e0e",
+      "text": "(d%x) avrcp pause/play status quick switch filtered %d %d"
+    },
+    {
+      "offset": "0x1c6e48",
+      "text": "app_bt_audio_avrcp_status_quick_switch_filter_timer_callback"
+    },
+    {
+      "offset": "0x1c6fcc",
+      "text": "d%x focus_empty_request_ringtone"
+    },
+    {
+      "offset": "0x1c6fed",
+      "text": "d%x Tiktok or tencent request focus again!"
+    },
+    {
+      "offset": "0x1c708f",
+      "text": "d%x clcc_timeout_focus_gain:%d"
+    },
+    {
+      "offset": "0x1c7338",
+      "text": "(d%x)maybe hungup gain should abanon"
+    },
+    {
+      "offset": "0x1c7591",
+      "text": "d(%d) streaming and avrcp is playing,dont resume"
+    },
+    {
+      "offset": "0x1c76ae",
+      "text": "app_bt_audio_event_judge_avrcp_play_status"
+    },
+    {
+      "offset": "0x1c76ef",
+      "text": "avrcp status:%d"
+    },
+    {
+      "offset": "0x1c7a21",
+      "text": "(d%x) avrcp play status timer generated event %d"
+    },
+    {
+      "offset": "0x1c7c0a",
+      "text": "d(%d) con %d streaming %d avrcp_playback_status %d"
+    },
+    {
+      "offset": "0x1c7c3d",
+      "text": "This maybe prompt tone, return"
+    },
+    {
+      "offset": "0x1c963f",
+      "text": "FEWIVmNULL:HCI :L2CAPGAP :GATT:SDP :SMP :BTM :A2DP:AVRCPBNEP:HFP :HID :MAP :OBEX:OPP :PAN :PBAP:RFC :SPP :BTIF:DIP :BEAUDBGATTA2DIFAVRIFHFPIFHIDIFMAPIFME_IFOPPIFPANIFPBAIFBAP :ISO :BLE :TEST:COBT:APPBTAVAPPHFAPPlock stack pos=%d, lock stack seq as below:"
+    },
+    {
+      "offset": "0x1cc98a",
+      "text": "avrcp_send_advanced_command"
+    },
+    {
+      "offset": "0x1cca8a",
+      "text": "AVRCP Remote Control Target"
+    },
+    {
+      "offset": "0x1d2b5e",
+      "text": "avrcp remote ct %d version %04x %04x features %04x"
+    },
+    {
+      "offset": "0x1d3c39",
+      "text": "sdp_search_avrcp_uuid_service"
+    },
+    {
+      "offset": "0x1d3dfa",
+      "text": "sdp_parse_avrcp_uuid_service"
+    },
+    {
+      "offset": "0x1d446b",
+      "text": ",_avrcp_get_control_from_id"
+    },
+    {
+      "offset": "0x1d4487",
+      "text": "(d%x) avrcp l2cap handle mismatch %d %d"
+    },
+    {
+      "offset": "0x1d44b0",
+      "text": "(d%x) avrcp req unacceptable %d role %d %02x:%02x:%02x:%02x:%02x:%02x"
+    },
+    {
+      "offset": "0x1d44f7",
+      "text": "(d%x) avrcp_connectReq:device %02x:%02x:%02x:%02x:%02x:%02x"
+    },
+    {
+      "offset": "0x1d4534",
+      "text": "_avrcp_wait_acl_complete_callback"
+    },
+    {
+      "offset": "0x1d4563",
+      "text": "[AVRCP_API] free rx_frag_buff %p"
+    },
+    {
+      "offset": "0x1d4584",
+      "text": "btif_avrcp_connect"
+    },
+    {
+      "offset": "0x1d4597",
+      "text": "btif_avrcp_profile_save_ctxs"
+    },
+    {
+      "offset": "0x1d45c3",
+      "text": "btif_avrcp_profile_restore_ctxs"
+    },
+    {
+      "offset": "0x1d45f3",
+      "text": "btif_avrcp_force_disconnect_avrcp_profile"
+    },
+    {
+      "offset": "0x1d478e",
+      "text": "APP_AVRCP_SET_PANLE_DELAY_TIMER"
+    },
+    {
+      "offset": "0x1d538b",
+      "text": "btif_hf_report_speaker_volume"
+    },
+    {
+      "offset": "0x1d53a9",
+      "text": "btif_hf_report_mic_volume"
+    },
+    {
+      "offset": "0x1d5a06",
+      "text": "_audio_ctrol_volume_dowm"
+    },
+    {
+      "offset": "0x1d5a1f",
+      "text": "app_volume_down_device type = %d, id = %d"
+    },
+    {
+      "offset": "0x1d5a49",
+      "text": "_audio_ctrol_volume_up"
+    },
+    {
+      "offset": "0x1d5a60",
+      "text": "app_volume_up_device type = %d, id = %d"
+    },
+    {
+      "offset": "0x1d5c83",
+      "text": "app_audio_avrcp_control"
+    },
+    {
+      "offset": "0x1d6346",
+      "text": "ringtone_changed"
+    },
+    {
+      "offset": "0x1d65c0",
+      "text": "audio_focus_ctrl:remove %d and push it again"
+    },
+    {
+      "offset": "0x1d69eb",
+      "text": "RINGTONE"
+    },
+    {
+      "offset": "0x1d6a29",
+      "text": "GAIN_TRANSIENT"
+    },
+    {
+      "offset": "0x1d759c",
+      "text": "[%s] gain(%d) is invalid"
+    },
+    {
+      "offset": "0x1d75cc",
+      "text": "[%s] gain(x100): %d, ms: %d"
+    },
+    {
+      "offset": "0x1d75e8",
+      "text": "[%s] WARNING: Don't need to change gain"
+    },
+    {
+      "offset": "0x1d7b6a",
+      "text": "metadata/bypass_gain_db"
+    },
+    {
+      "offset": "0x1d867c",
+      "text": "bypass_gain_db"
+    },
+    {
+      "offset": "0x1d868c",
+      "text": "[Dirac] DAR Bypass Gain: %d"
+    },
+    {
+      "offset": "0x1db6f8",
+      "text": "output_gain_change da1:%08d, final:%08d"
+    },
+    {
+      "offset": "0x1db977",
+      "text": " algo_gain da1:%08d"
+    },
+    {
+      "offset": "0x1db98b",
+      "text": "algo_gain_dirac da1:%08d"
+    },
+    {
+      "offset": "0x1dc313",
+      "text": "CALIB DAC GAIN"
+    },
+    {
+      "offset": "0x1dc3b5",
+      "text": "Final analog_gain: %d"
+    },
+    {
+      "offset": "0x1dc636",
+      "text": "Receive request to play prompt 0x%x%s prompt_type 0x%x"
+    },
+    {
+      "offset": "0x1dc66d",
+      "text": "app_tws_cmd_prompt_play_req_handler"
+    },
+    {
+      "offset": "0x1dc8d7",
+      "text": "[ANC_PROMPT]"
+    },
+    {
+      "offset": "0x1dc91e",
+      "text": "[TONE_1K]"
+    },
+    {
+      "offset": "0x1dcb30",
+      "text": "prompt request memory pool is full."
+    },
+    {
+      "offset": "0x1dcb54",
+      "text": "duplicated prompt request."
+    },
+    {
+      "offset": "0x1dcb6f",
+      "text": "last chunk of prompt"
+    },
+    {
+      "offset": "0x1dcbe7",
+      "text": " push rq prompt request devId %d promptId 0x%x func 0x%x"
+    },
+    {
+      "offset": "0x1dcc47",
+      "text": " pop pending prompt 0x%x to play"
+    },
+    {
+      "offset": "0x1dcc68",
+      "text": "tws disc play block prompt"
+    },
+    {
+      "offset": "0x1dcc83",
+      "text": "A prompt playing is on-going."
+    },
+    {
+      "offset": "0x1dcca1",
+      "text": "start continuous prompt checker"
+    },
+    {
+      "offset": "0x1dcceb",
+      "text": "Invalid prompt req type %d."
+    },
+    {
+      "offset": "0x1dcd07",
+      "text": "Prompt list is empty"
+    },
+    {
+      "offset": "0x1dcdd9",
+      "text": "prompt mute...................."
+    },
+    {
+      "offset": "0x1dce10",
+      "text": "a2dp_local_volume = %d"
+    },
+    {
+      "offset": "0x1dce28",
+      "text": "hfp_local_volume = %d"
+    },
+    {
+      "offset": "0x1dce3f",
+      "text": "app_prompt_list_init"
+    },
+    {
+      "offset": "0x1dce74",
+      "text": "stop_continuous_prompt:%d"
+    },
+    {
+      "offset": "0x1dce8e",
+      "text": "app_tws_cmd_stop_prompt_handler"
+    },
+    {
+      "offset": "0x1dceae",
+      "text": "a wild prompt has blocked system for %d ms!"
+    },
+    {
+      "offset": "0x1dceda",
+      "text": "app_prompt_clear_prompt_list"
+    },
+    {
+      "offset": "0x1dcef7",
+      "text": "push prompt request type %d devId %d promptId 0x%x isLocalPlaying %d"
+    },
+    {
+      "offset": "0x1dcf3c",
+      "text": "app_prompt_push_request"
+    },
+    {
+      "offset": "0x1dcf54",
+      "text": "app_prompt_clear_non_continuous_prompt"
+    },
+    {
+      "offset": "0x1dcf7f",
+      "text": " A continuous prompt is already on-going!"
+    },
+    {
+      "offset": "0x1dcfee",
+      "text": "%s app_prompt_is_on_going:%d"
+    },
+    {
+      "offset": "0x1dd00b",
+      "text": "(d%d)Let peer bud play prompt 0x%x"
+    },
+    {
+      "offset": "0x1dd041",
+      "text": "Audio prompt stream state %s, to %s it"
+    },
+    {
+      "offset": "0x1dd131",
+      "text": "Blocked user %d can be processed when prompt is completed"
+    },
+    {
+      "offset": "0x1dd16b",
+      "text": "Post prompt handling of user %d done"
+    },
+    {
+      "offset": "0x1dd193",
+      "text": " enter prompt handler thread."
+    },
+    {
+      "offset": "0x1dd1b1",
+      "text": "prompt handler thread gets signal 0x%x"
+    },
+    {
+      "offset": "0x1dd1df",
+      "text": " app_prompt_protector_timer"
+    },
+    {
+      "offset": "0x1dd1fb",
+      "text": "app_prompt_handler"
+    },
+    {
+      "offset": "0x21b0bc",
+      "text": "gain0/10000: %d, gain1/10000:%d"
+    },
+    {
+      "offset": "0x21b0dc",
+      "text": "iir_cfg [%d] type: %d, gain/10000: %d, fc/10000: %d, q/10000: %d"
+    },
+    {
+      "offset": "0x21bb93",
+      "text": "[STRM_PLAYER][VOL][UP] hfp volume"
+    },
+    {
+      "offset": "0x21bbb5",
+      "text": "app_bt_stream_volumeup_generic"
+    },
+    {
+      "offset": "0x21bc08",
+      "text": "%s set a2dp volume"
+    },
+    {
+      "offset": "0x21bc32",
+      "text": "[STRM_PLAYER][VOL] set hfp volume"
+    },
+    {
+      "offset": "0x21bc54",
+      "text": "[STRM_PLAYER][VOL] set a2dp volume"
+    },
+    {
+      "offset": "0x21bcae",
+      "text": "app_bt_stream_volumedown_generic"
+    },
+    {
+      "offset": "0x21bccf",
+      "text": "%s set hfp volume"
+    },
+    {
+      "offset": "0x21c0f3",
+      "text": " bt_media_volume_ptr_update_by_mediatype"
+    },
+    {
+      "offset": "0x21c55d",
+      "text": "[APP_BT_STREAM_MANAGER_CTRL_VOLUME]"
+    },
+    {
+      "offset": "0x22b967",
+      "text": "(d%x) custom_ui avrcp_status changed = %d addr:%02x:%02x:*:*:*:%02x"
+    },
+    {
+      "offset": "0x22b9ab",
+      "text": "(d%x) custom_ui avrcp_status changed = %d addr is NULL"
+    },
+    {
+      "offset": "0x22b9e2",
+      "text": "custom_ui volume %d %d%%"
+    },
+    {
+      "offset": "0x22b9fb",
+      "text": "custom_ui remote ct 1.4 support %d volume %d"
+    },
+    {
+      "offset": "0x22c625",
+      "text": "is local bt in box:%d"
+    },
+    {
+      "offset": "0x22da5c",
+      "text": "[%s] Change to WD_STATUS_IN_EAR"
+    },
+    {
+      "offset": "0x22dadb",
+      "text": " [%s] ---------feat = %de-2 best_mode = mode %d--------"
+    },
+    {
+      "offset": "0x22de23",
+      "text": "[%s]  Starting:%d :prompt : %d"
+    },
+    {
+      "offset": "0x22e022",
+      "text": "$,[%s] wear_leak_status = %d"
+    },
+    {
+      "offset": "0x22e2a2",
+      "text": "[%s] opt role: %d, Gain(x100) FF: (%d, %d) --> %d, FB: (%d, %d) --> %d"
+    },
+    {
+      "offset": "0x22e6ee",
+      "text": "[%s] gain_coef_l(%d) is invalid."
+    },
+    {
+      "offset": "0x22e70f",
+      "text": "[%s] gain_coef_r(%d) is invalid."
+    },
+    {
+      "offset": "0x22e74c",
+      "text": "[%s] type = %d, gain_coef_l(*100) = %d, gain_coef_r(*100) = %d"
+    },
+    {
+      "offset": "0x22e7ed",
+      "text": "anc_set_gain_with_hw_smooth"
+    },
+    {
+      "offset": "0x22e809",
+      "text": "anc_assist_anc_set_gain_coef_impl"
+    },
+    {
+      "offset": "0x22e867",
+      "text": "[%s] type: %d, gain_l: %d, gain_r: %d"
+    },
+    {
+      "offset": "0x22e8a6",
+      "text": "app_anc_reset_gain"
+    },
+    {
+      "offset": "0x22ecfe",
+      "text": "[%s] ANC_ASSIST_MODE_PROMPT"
+    },
+    {
+      "offset": "0x22ef06",
+      "text": "[%s] ANC_ASSIST_USER_PROMPT_LEAK_DETECT"
+    },
+    {
+      "offset": "0x22f13f",
+      "text": "psap_band_gain[%d]*1000 = %d"
+    },
+    {
+      "offset": "0x22f64b",
+      "text": "[%s] type: 0x%x, gain(x100): %d, %d"
+    },
+    {
+      "offset": "0x22f82a",
+      "text": "app_anc_switch_mode_tone_play"
+    },
+    {
+      "offset": "0x22f87b",
+      "text": "app_anc_switch_mode_by_wear_or_box"
+    },
+    {
+      "offset": "0x230383",
+      "text": "last status is wear on,switch wear off"
+    },
+    {
+      "offset": "0x230439",
+      "text": "close event:but last status is wear on,switch wear off "
+    },
+    {
+      "offset": "0x230cb4",
+      "text": "user_charger_0_5c_start >>"
+    },
+    {
+      "offset": "0x23110c",
+      "text": "user_wear_play_pause_timer------->"
+    },
+    {
+      "offset": "0x2311f5",
+      "text": "user_wear_play_pause_timer_start------->"
+    },
+    {
+      "offset": "0x23121e",
+      "text": "user_wear_play_pause_timer_stop------->"
+    },
+    {
+      "offset": "0x231246",
+      "text": "user_wear_play_pause------->"
+    },
+    {
+      "offset": "0x231330",
+      "text": "in_ear_play_pause :%d"
+    },
+    {
+      "offset": "0x2317bf",
+      "text": " wear:%d,is_slave:%d"
+    },
+    {
+      "offset": "0x231929",
+      "text": "USER_WEAR_UP_PLAY_PAUSE"
+    },
+    {
+      "offset": "0x2328ce",
+      "text": "commu_factory_wear_offset_calibration enter"
+    },
+    {
+      "offset": "0x2328fa",
+      "text": "commu_factory_wear_offset_calibration exit"
+    },
+    {
+      "offset": "0x23292b",
+      "text": " commu_factory_wear_diff_calibration enter"
+    },
+    {
+      "offset": "0x232956",
+      "text": "commu_factory_wear_diff_calibration exit"
+    },
+    {
+      "offset": "0x2329a7",
+      "text": " set wear_diff0_up %d down:%d"
+    },
+    {
+      "offset": "0x2329c5",
+      "text": "set wear_diff1_up %d down:%d"
+    },
+    {
+      "offset": "0x2329e2",
+      "text": "set wear_snr0_down %d snr1:%d"
+    },
+    {
+      "offset": "0x2330b4",
+      "text": "FCATORY_UART_CMD_SET_IN_EAR"
+    },
+    {
+      "offset": "0x2331bd",
+      "text": "wear and touch offset "
+    },
+    {
+      "offset": "0x2333c2",
+      "text": "FCATORY_UART_CMD_SET_WEAR_THRESHOLD"
+    },
+    {
+      "offset": "0x23485b",
+      "text": "[IOT_PROTOCOL] type %d gain %d   fc %d  Q %d "
+    },
+    {
+      "offset": "0x234aba",
+      "text": "[IOT_PROTOCOL] Handling WEARSDK_DOUBLE_CLICK"
+    },
+    {
+      "offset": "0x234ae8",
+      "text": "[IOT_PROTOCOL] Handling WEARSDK_TRIPLE_CLICK"
+    },
+    {
+      "offset": "0x234b16",
+      "text": "[IOT_PROTOCOL] Handling WEARSDK_LONGPRESS"
+    },
+    {
+      "offset": "0x234b41",
+      "text": "[IOT_PROTOCOL] Handling WEARSDK_CLICK_AND_PRESS"
+    },
+    {
+      "offset": "0x234b72",
+      "text": "[IOT_PROTOCOL] Handling left WEARSDK_DOUBLE_CLICK"
+    },
+    {
+      "offset": "0x234ba5",
+      "text": "[IOT_PROTOCOL] Handling left WEARSDK_TRIPLE_CLICK"
+    },
+    {
+      "offset": "0x234bd8",
+      "text": "[IOT_PROTOCOL] Handling left WEARSDK_LONGPRESS"
+    },
+    {
+      "offset": "0x234c08",
+      "text": "[IOT_PROTOCOL] Handling left WEARSDK_CLICK_AND_PRESS"
+    },
+    {
+      "offset": "0x234c3e",
+      "text": "[IOT_PROTOCOL] Handling case WEARSDK_CLICK"
+    },
+    {
+      "offset": "0x234c6a",
+      "text": "[IOT_PROTOCOL] Handling case WEARSDK_DOUBLE_CLICK"
+    },
+    {
+      "offset": "0x234c9d",
+      "text": "[IOT_PROTOCOL] Handling case WEARSDK_TRIPLE_CLICK"
+    },
+    {
+      "offset": "0x234cd0",
+      "text": "[IOT_PROTOCOL] Handling case WEARSDK_LONGPRESS"
+    },
+    {
+      "offset": "0x234d00",
+      "text": "[IOT_PROTOCOL] Handling case WEARSDK_CLICK_AND_PRESS"
+    },
+    {
+      "offset": "0x234d36",
+      "text": "[IOT_PROTOCOL] Handling case WEARSDK_ROTAY"
+    },
+    {
+      "offset": "0x234d62",
+      "text": "[IOT_PROTOCOL] Handling case call WEARSDK_DOUBLE_CLICK"
+    },
+    {
+      "offset": "0x234d9a",
+      "text": "[IOT_PROTOCOL] Handling case call WEARSDK_TRIPLE_CLICK"
+    },
+    {
+      "offset": "0x23554d",
+      "text": "[IOT_PROTOCOL] gain0 %d "
+    },
+    {
+      "offset": "0x236d4a",
+      "text": "app_battery_charger_handler"
+    },
+    {
+      "offset": "0x236eac",
+      "text": "app_battery_charger_indication_open"
+    },
+    {
+      "offset": "0x237056",
+      "text": "local or peer in box"
+    },
+    {
+      "offset": "0x237080",
+      "text": "CHARGING-->APP_BATTERY_CHARGER :%d"
+    },
+    {
+      "offset": "0x2373b4",
+      "text": "user_app_volume_going_timer "
+    },
+    {
+      "offset": "0x2374f3",
+      "text": " app_ibrt_sync_volume_info"
+    },
+    {
+      "offset": "0x237537",
+      "text": " user_apps_volume_going_timer_start"
+    },
+    {
+      "offset": "0x23755b",
+      "text": "set a2dp volume up"
+    },
+    {
+      "offset": "0x23756e",
+      "text": "set hfp volume up"
+    },
+    {
+      "offset": "0x237580",
+      "text": "set a2dp volume down"
+    },
+    {
+      "offset": "0x237595",
+      "text": "set hfp volume down"
+    },
+    {
+      "offset": "0x2375a9",
+      "text": "set hfp volume down hfp_volume_local_get %d"
+    },
+    {
+      "offset": "0x2375d5",
+      "text": "set hfp volume down %d"
+    },
+    {
+      "offset": "0x237629",
+      "text": "AVRCP_KEY_BACKWARD"
+    },
+    {
+      "offset": "0x23763c",
+      "text": "AVRCP_KEY_FORWARD"
+    },
+    {
+      "offset": "0x23764e",
+      "text": "WEARSDK_GAME_MODE"
+    },
+    {
+      "offset": "0x237660",
+      "text": "WEARSDK_SIRI"
+    },
+    {
+      "offset": "0x237850",
+      "text": "volume on going return"
+    },
+    {
+      "offset": "0x237867",
+      "text": "positive volume up"
+    },
+    {
+      "offset": "0x23787a",
+      "text": "nagetive volume down"
+    },
+    {
+      "offset": "0x237c17",
+      "text": "__prompt_start: %p length: 0x%x"
+    },
+    {
+      "offset": "0x237f30",
+      "text": "APP_VOLUME_GOING_TIMER_ID"
+    },
+    {
+      "offset": "0x2380d1",
+      "text": "gain_l*1000:  %d"
+    },
+    {
+      "offset": "0x2380e2",
+      "text": "gain_r*1000:  %d"
+    },
+    {
+      "offset": "0x2380f3",
+      "text": "ana_gain:     0x%x"
+    },
+    {
+      "offset": "0x238106",
+      "text": "ini_ana_gain: 0x%x"
+    },
+    {
+      "offset": "0x238119",
+      "text": "gain_offset:  0x%x"
+    },
+    {
+      "offset": "0x23813f",
+      "text": "top_gain:     0x%x"
+    },
+    {
+      "offset": "0x238425",
+      "text": "AUTO CALIB ANA DAC DC: ana_gain=%d, L=0x%04X R=0x%04X, ret=%d"
+    },
+    {
+      "offset": "0x238471",
+      "text": "DAC CALIB DC ERR: state=%d, i=%d, gain=%d"
+    },
+    {
+      "offset": "0x23849b",
+      "text": "AUTO CALIB DAC DC: ana_gain=%d, L=0x%08X R=0x%08X, ret=%d"
+    },
+    {
+      "offset": "0x2384e3",
+      "text": "AUTO CALIB DAC GAIN: ana_gain=%d, L*1000=%d R*1000=%d"
+    },
+    {
+      "offset": "0x2387ec",
+      "text": "%s: calib DAC DC again !!"
+    },
+    {
+      "offset": "0x2389e4",
+      "text": "%s,wearon_voice_allow_flag = %d"
+    },
+    {
+      "offset": "0x238a17",
+      "text": "app_wear_delay_report_timer_stop "
+    },
+    {
+      "offset": "0x238a39",
+      "text": "a2dp:%d trigger:%d wearon_voice_allow_flag = %d"
+    },
+    {
+      "offset": "0x238a86",
+      "text": "paly AUD_ID_UX_WEAR_ON"
+    },
+    {
+      "offset": "0x238aaf",
+      "text": "mobile:%d, tws:%d,avrcp:%d,hfp_call_active:%d,is_slave:%d"
+    },
+    {
+      "offset": "0x238ae9",
+      "text": "local_wear:(%d/%d),peer_wear:(%d/%d)(old/new)(1:off,2,on)"
+    },
+    {
+      "offset": "0x238b30",
+      "text": "app_wear_delay_report_timer_start "
+    },
+    {
+      "offset": "0x238edb",
+      "text": "APP_WEAR_DELAY_REPORT_TIMER"
+    },
+    {
+      "offset": "0x238ef7",
+      "text": "APP_WEAR_DELAY_TIMER_ID"
+    },
+    {
+      "offset": "0x238f8d",
+      "text": "user_wear_diff_mass_data_set"
+    },
+    {
+      "offset": "0x238faa",
+      "text": "user_app_wear_delay_timer_start"
+    },
+    {
+      "offset": "0x238fca",
+      "text": "user_app_wear_delay_timer_stop"
+    },
+    {
+      "offset": "0x239005",
+      "text": "app_wearon_voice_allow_flag_set"
+    },
+    {
+      "offset": "0x239025",
+      "text": "app_wearon_voice_allow_flag_get"
+    },
+    {
+      "offset": "0x239045",
+      "text": "app_wear_off_handle"
+    },
+    {
+      "offset": "0x23936a",
+      "text": "best_test:"
+    },
+    {
+      "offset": "0x23c448",
+      "text": "appmode%d,FEEDFORWARD,L:gain %d"
+    },
+    {
+      "offset": "0x23c4ad",
+      "text": "appmode%d,FEEDBACK,L:gain %d"
+    },
+    {
+      "offset": "0x23c5b1",
+      "text": "2 codec_iir2_gainb_ext_out_ch0/1_sync:%d/%d"
+    },
+    {
+      "offset": "0x23c5dd",
+      "text": "2 codec_iir0_gaina_ext_out_ch0_sync:%d,codec_iir0_gaina_ext_out_ch1_sync:%d"
+    },
+    {
+      "offset": "0x23c629",
+      "text": "2 codec_iir0_gainb_ext_out_ch0_sync:%d,codec_iir0_gainb_ext_out_ch1_sync:%d"
+    },
+    {
+      "offset": "0x23c675",
+      "text": "ff gain: %d, counter: %d iir_bypass_flag: %d "
+    },
+    {
+      "offset": "0x23c6a3",
+      "text": "ff dac_gain_offset %d, adc_gain_offset %d"
+    },
+    {
+      "offset": "0x23c70a",
+      "text": "fb gain: %d, counter: %d iir_bypass_flag: %d "
+    },
+    {
+      "offset": "0x23c738",
+      "text": "fb dac_gain_offset %d, adc_gain_offset %d"
+    },
+    {
+      "offset": "0x23c79f",
+      "text": "tt gain: %d, counter: %d iir_bypass_flag: %d "
+    },
+    {
+      "offset": "0x23c7cd",
+      "text": "tt dac_gain_offset %d, adc_gain_offset %d"
+    },
+    {
+      "offset": "0x23c834",
+      "text": "mc gain: %d, counter: %d iir_bypass_flag: %d "
+    },
+    {
+      "offset": "0x23c8e3",
+      "text": "%s: codec_iir0_gainb_ext_out_ch0_sync:%d,codec_iir0_gainb_ext_out_ch1_sync:%d"
+    },
+    {
+      "offset": "0x23c931",
+      "text": "%s: codec_iir0_gaina_ext_out_ch0_sync:%d,codec_iir0_gaina_ext_out_ch1_sync:%d"
+    },
+    {
+      "offset": "0x23c9dc",
+      "text": "%s: codec_iir2_gainb_ext_out_ch0/1_sync:%d/%d"
+    },
+    {
+      "offset": "0x23ca0a",
+      "text": "%s: *codec_iir2_gaina_ext_out_ch0/1_sync:%d/%d"
+    },
+    {
+      "offset": "0x23ca58",
+      "text": "%s: 1 codec_iir2_gainb_ext_out_ch0/1_sync:%d/%d"
+    },
+    {
+      "offset": "0x23ca88",
+      "text": "%s: 2 *codec_iir2_gaina_ext_out_ch0/1_sync:%d/%d"
+    },
+    {
+      "offset": "0x23cb43",
+      "text": "Failed to alloc anc_iir0_set_gain_timer"
+    },
+    {
+      "offset": "0x23cb6b",
+      "text": "Failed to alloc anc_iir2_set_gain_timer"
+    },
+    {
+      "offset": "0x23cbe5",
+      "text": "anc_set_gain anc_type:%d, gain_ch_l:%d,gain_ch_r:%d"
+    },
+    {
+      "offset": "0x23cc4c",
+      "text": "anc_iir0_set_gain_timer_handler"
+    },
+    {
+      "offset": "0x23cc6c",
+      "text": "anc_iir2_set_gain_timer_handler"
+    },
+    {
+      "offset": "0x23ccd7",
+      "text": "iir2_gaina_creat_stop_status"
+    },
+    {
+      "offset": "0x23ccf4",
+      "text": "iir2_gainb_creat_stop_status"
+    },
+    {
+      "offset": "0x23cd26",
+      "text": "iir0_gaina_creat_stop_status"
+    },
+    {
+      "offset": "0x23cd43",
+      "text": "iir0_gainb_creat_stop_status"
+    },
+    {
+      "offset": "0x23cd81",
+      "text": "anc_set_gain"
+    },
+    {
+      "offset": "0x23cda8",
+      "text": "PSAP: Set left bands gain"
+    },
+    {
+      "offset": "0x23cdc2",
+      "text": "PSAP: Reset left bands gain"
+    },
+    {
+      "offset": "0x23ce09",
+      "text": "psap_updata_gain"
+    },
+    {
+      "offset": "0x23ce1a",
+      "text": "psap_set_bands_gain_f32"
+    },
+    {
+      "offset": "0x23ce74",
+      "text": "%s:deq_iir_gaina_ch0:%d"
+    },
+    {
+      "offset": "0x23ce8c",
+      "text": "%s:codec_deq_iir_gaina_ext_ch0:%0x, codec_deq_iir_gaina_ext_out_ch0_sync=%0x, DEQ_SMOOTH_CHECK,  NEED SET AGAIN !!!"
+    },
+    {
+      "offset": "0x23cf17",
+      "text": "%s:deq_iir_gainb_ch0:%d"
+    },
+    {
+      "offset": "0x23cf2f",
+      "text": "%s:codec_deq_iir_gainb_ext_ch0:%0x, codec_deq_iir_gainb_ext_out_ch0_sync=%0x, DEQ_SMOOTH_CHECK,  NEED SET AGAIN !!!"
+    },
+    {
+      "offset": "0x23d084",
+      "text": "deq_gaina_cfg_gain"
+    },
+    {
+      "offset": "0x23d097",
+      "text": "deq_gainb_cfg_gain"
+    },
+    {
+      "offset": "0x2440fc",
+      "text": "[tone detection] || indexF=%d, max_pwrF = %de-4, max_pwrF3=%d, max_pwrF2=%d"
+    },
+    {
+      "offset": "0x244148",
+      "text": "tone_detection_creat"
+    },
+    {
+      "offset": "0x244214",
+      "text": "[%s] ff tone"
+    },
+    {
+      "offset": "0x244224",
+      "text": "[%s] fb tone"
+    },
+    {
+      "offset": "0x245054",
+      "text": "[%s] gain(%d) is invalid!"
+    },
+    {
+      "offset": "0x245070",
+      "text": "[%s] curr gain(x10000) = %d, new gain(x10000) = %d"
+    },
+    {
+      "offset": "0x2450a4",
+      "text": "[%s] gain not changed, skip gain smoothing"
+    },
+    {
+      "offset": "0x245140",
+      "text": "[%s] Smooth finished: gain(x10000) = %d"
+    },
+    {
+      "offset": "0x245168",
+      "text": "[%s] g_gain_smooth_new(%d) != g_gain_smooth_curr(%d)"
+    },
+    {
+      "offset": "0x2451c4",
+      "text": "pilot_play_set_gain"
+    },
+    {
+      "offset": "0x2451d8",
+      "text": "pilot_play_set_gain"
+    },
+    {
+      "offset": "0x2451ec",
+      "text": "_gain_smooth_process"
+    },
+    {
+      "offset": "0x245470",
+      "text": "[%s] WD:EARBUDS IN EAR!!!"
+    },
+    {
+      "offset": "0x2459f0",
+      "text": "[%s] g_customer.param[%d].gain:%d"
+    },
+    {
+      "offset": "0x245af4",
+      "text": "[%s]boost_gain_running:%d,"
+    },
+    {
+      "offset": "0x245b10",
+      "text": "volume_table_type is error,must set 16 or 30 !!"
+    },
+    {
+      "offset": "0x245b40",
+      "text": "dynamic_boost_customer_volume_table_type_set"
+    },
+    {
+      "offset": "0x245b70",
+      "text": "%s,volume_table_type %d"
+    },
+    {
+      "offset": "0x245b88",
+      "text": "dynamic_level :%d,vol_level:%d, dynamic_boost_gain*10 = %d dB, local_gain*10 = %d dB"
+    },
+    {
+      "offset": "0x246c4c",
+      "text": "speech_gain_process_int24"
+    },
+    {
+      "offset": "0x24abe8",
+      "text": "best1501p_ibrt_anc_leaudio.DESKTOP-6D70K30.adduser"
+    },
+    {
+      "offset": "0x25a90d",
+      "text": "CHIP=best1501p"
+    },
+    {
+      "offset": "0x25a9ec",
+      "text": "PRODUCT_ID=0xB172"
+    },
+    {
+      "offset": "0x25aa73",
+      "text": "NT_MODE_ID=0xB172"
+    },
+    {
+      "offset": "0x25aaa5",
+      "text": "REV_INFO=bc60cb9d-dirty:best1501p_ibrt_anc_leaudio"
+    }
+  ],
+  "limitations": "Generic triage. Vector candidates and prompt strings require disassembly and cross references. CRC does not establish whether firmware signatures are enforced."
+}

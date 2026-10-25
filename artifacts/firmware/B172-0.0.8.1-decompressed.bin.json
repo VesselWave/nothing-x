@@ -1,0 +1,107 @@
+{
+  "model": "B172",
+  "model_hex": "B172",
+  "blocks": [
+    {
+      "offset": 8,
+      "compressed": 78696,
+      "decompressed": 131072
+    },
+    {
+      "offset": 78708,
+      "compressed": 77564,
+      "decompressed": 131072
+    },
+    {
+      "offset": 156276,
+      "compressed": 72718,
+      "decompressed": 131072
+    },
+    {
+      "offset": 228998,
+      "compressed": 70599,
+      "decompressed": 131072
+    },
+    {
+      "offset": 299601,
+      "compressed": 80862,
+      "decompressed": 131072
+    },
+    {
+      "offset": 380467,
+      "compressed": 79857,
+      "decompressed": 131072
+    },
+    {
+      "offset": 460328,
+      "compressed": 82710,
+      "decompressed": 131072
+    },
+    {
+      "offset": 543042,
+      "compressed": 81974,
+      "decompressed": 131072
+    },
+    {
+      "offset": 625020,
+      "compressed": 80655,
+      "decompressed": 131072
+    },
+    {
+      "offset": 705679,
+      "compressed": 83207,
+      "decompressed": 131072
+    },
+    {
+      "offset": 788890,
+      "compressed": 82989,
+      "decompressed": 131072
+    },
+    {
+      "offset": 871883,
+      "compressed": 77020,
+      "decompressed": 131072
+    },
+    {
+      "offset": 948907,
+      "compressed": 69616,
+      "decompressed": 131072
+    },
+    {
+      "offset": 1018527,
+      "compressed": 38118,
+      "decompressed": 131072
+    },
+    {
+      "offset": 1056649,
+      "compressed": 46436,
+      "decompressed": 131072
+    },
+    {
+      "offset": 1103089,
+      "compressed": 115068,
+      "decompressed": 131072
+    },
+    {
+      "offset": 1218161,
+      "compressed": 112570,
+      "decompressed": 131072
+    },
+    {
+      "offset": 1330735,
+      "compressed": 63289,
+      "decompressed": 131072
+    },
+    {
+      "offset": 1394028,
+      "compressed": 34191,
+      "decompressed": 109292
+    }
+  ],
+  "size": 2468588,
+  "sha256": "0e5712d2aa7bc20676681e2fb114ae861867d83f4f4ce5b523682127efaa026b",
+  "footer_crc32": "c69e8c61",
+  "raw_crc32": "36ab1ec6",
+  "footer_crc_verified": false,
+  "footer": "CRC32_OF_IMAGE=0xC69E8C61 NT_MODE_ID=0xB172 APP_SIZE=2468588"
+}

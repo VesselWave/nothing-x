@@ -1,0 +1,53 @@
+{
+  "file": "artifacts/firmware/B172-0-9OboQZeOgcCfSvb4bEGTaV4f1x3813BqLlWXypbHBq81MvR0pkZgMHsTSs7PSccFKTPPs9PrPbLiU3j4kF41DJM3YmLBAI4AEg4FTAuf87NUUFEsxp2uPS1z4O3a7WUt",
+  "size": 1428280,
+  "sha256": "2efe1ca2ebf719a6f62ef03d3a358caf32b2f654ab16e1e999961943802f8a97",
+  "first_32_bytes": "ffffffff000133685d00000004ffffffffffffffff007fe87c300800cb86be39",
+  "trailing_4_bytes": "3538380a",
+  "app_bes_transfer_size": 1428480,
+  "app_bes_transfer_crc32": "e3c2ffbe",
+  "candidate_vector_tables_unverified": [
+    {
+      "offset": "0x6560",
+      "initial_sp": "0x20b60018",
+      "reset_vector": "0x2495d405"
+    },
+    {
+      "offset": "0x2a4a0",
+      "initial_sp": "0x20f04df8",
+      "reset_vector": "0x25ab0217"
+    },
+    {
+      "offset": "0x3c59c",
+      "initial_sp": "0x2092c8f0",
+      "reset_vector": "0xf1a5b1f"
+    },
+    {
+      "offset": "0x4622c",
+      "initial_sp": "0x203c1d08",
+      "reset_vector": "0x2159e313"
+    },
+    {
+      "offset": "0x84e70",
+      "initial_sp": "0x20530558",
+      "reset_vector": "0x2ee806fd"
+    },
+    {
+      "offset": "0x94834",
+      "initial_sp": "0x2018a068",
+      "reset_vector": "0xcbb52cb"
+    },
+    {
+      "offset": "0x9e8a4",
+      "initial_sp": "0x201910a8",
+      "reset_vector": "0xf6c9b53"
+    }
+  ],
+  "interesting_strings": [
+    {
+      "offset": "0x15caf9",
+      "text": "XRCRC32_OF_IMAGE=0xC69E8C61 NT_MODE_ID=0xB172 APP_SIZE=2468588"
+    }
+  ],
+  "limitations": "Generic triage. Vector candidates and prompt strings require disassembly and cross references. CRC does not establish whether firmware signatures are enforced."
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "offset": "0x1821e4",
+    "address": "0x2c1a21e4",
+    "text": "[%s] Set default volume table",
+    "pointer_locations": [
+      "0x6feb0"
+    ]
+  },
+  {
+    "offset": "0x182202",
+    "address": "0x2c1a2202",
+    "text": "[%s] Set new volume table",
+    "pointer_locations": [
+      "0x6feb8"
+    ]
+  },
+  {
+    "offset": "0x182259",
+    "address": "0x2c1a2259",
+    "text": "hal_codec_set_dac_volume_table",
+    "pointer_locations": [
+      "0x6fea4"
+    ]
+  },
+  {
+    "offset": "0x1b48ce",
+    "address": "0x2c1d48ce",
+    "text": "%s cannot redial call",
+    "pointer_locations": [
+      "0xa9a00"
+    ]
+  },
+  {
+    "offset": "0x1bcbf2",
+    "address": "0x2c1dcbf2",
+    "text": "hf_dial_number_memory_index",
+    "pointer_locations": [
+      "0x1bd274"
+    ]
+  },
+  {
+    "offset": "0x1bcc0e",
+    "address": "0x2c1dcc0e",
+    "text": "hf_dial_number_invalid_index",
+    "pointer_locations": [
+      "0x1bd27c"
+    ]
+  },
+  {
+    "offset": "0x1bd052",
+    "address": "0x2c1dd052",
+    "text": "ib_call_redial",
+    "pointer_locations": [
+      "0x1bd494"
+    ]
+  },
+  {
+    "offset": "0x1c01a0",
+    "address": "0x2c1e01a0",
+    "text": "Dialing",
+    "pointer_locations": [
+      "0x1c01e0"
+    ]
+  },
+  {
+    "offset": "0x1c26fc",
+    "address": "0x2c1e26fc",
+    "text": "avrcp_key = HFP_KEY_REDIAL_LAST_CALL",
+    "pointer_locations": [
+      "0xc84f8"
+    ]
+  },
+  {
+    "offset": "0x1cd2eb",
+    "address": "0x2c1ed2eb",
+    "text": "[HF_DIAL_NUM_REQ]",
+    "pointer_locations": [
+      "0x1cd84c"
+    ]
+  },
+  {
+    "offset": "0x1cd340",
+    "address": "0x2c1ed340",
+    "text": "[HF_DIAL_LASTNUM_REQ]",
+    "pointer_locations": [
+      "0x1cd860"
+    ]
+  },
+  {
+    "offset": "0x1cd369",
+    "address": "0x2c1ed369",
+    "text": "[HF_VOICE_DIAL_REQ]",
+    "pointer_locations": [
+      "0x1cd868"
+    ]
+  },
+  {
+    "offset": "0x1cd37d",
+    "address": "0x2c1ed37d",
+    "text": "[HF_VOICE_DIAL_CANCEL_REQ]",
+    "pointer_locations": [
+      "0x1cd86c"
+    ]
+  },
+  {
+    "offset": "0x1cd437",
+    "address": "0x2c1ed437",
+    "text": "[HF_REJ_REDIAL_TRANS_CONN]",
+    "pointer_locations": [
+      "0x1cd890"
+    ]
+  },
+  {
+    "offset": "0x1d54be",
+    "address": "0x2c1f54be",
+    "text": "btif_hf_dial_number",
+    "pointer_locations": [
+      "0x125cf8"
+    ]
+  },
+  {
+    "offset": "0x1d54d2",
+    "address": "0x2c1f54d2",
+    "text": "btif_hf_redial_call",
+    "pointer_locations": [
+      "0x125d2c"
+    ]
+  },
+  {
+    "offset": "0x22feef",
+    "address": "0x2c24feef",
+    "text": "!!!!KEY_DIAL_HUNG_UP123",
+    "pointer_locations": [
+      "0x14aefc"
+    ]
+  },
+  {
+    "offset": "0x237837",
+    "address": "0x2c257837",
+    "text": "ROTATION no open return ",
+    "pointer_locations": [
+      "0x1599ec"
+    ]
+  },
+  {
+    "offset": "0x245b10",
+    "address": "0x2c265b10",
+    "text": "volume_table_type is error,must set 16 or 30 !!",
+    "pointer_locations": [
+      "0x172920"
+    ]
+  },
+  {
+    "offset": "0x245b40",
+    "address": "0x2c265b40",
+    "text": "dynamic_boost_customer_volume_table_type_set",
+    "pointer_locations": [
+      "0x172918"
+    ]
+  },
+  {
+    "offset": "0x245b70",
+    "address": "0x2c265b70",
+    "text": "%s,volume_table_type %d",
+    "pointer_locations": [
+      "0x17291c"
+    ]
+  }
+]

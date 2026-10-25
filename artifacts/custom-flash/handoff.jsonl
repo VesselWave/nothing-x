@@ -1,0 +1,2 @@
+{"time": 1792900400.160743, "message": {"type": "send", "payload": {"kind": "armed", "offset": "0x346bc88"}}}
+{"time": 1792900413.3854568, "message": {"type": "send", "payload": {"kind": "custom-file-substituted", "hooksDetached": true}}}

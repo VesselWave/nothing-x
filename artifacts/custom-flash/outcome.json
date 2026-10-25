@@ -1,0 +1,14 @@
+{
+  "custom_sha256": "d8525f692656e3c4126a2c5ee5994e881ff8ca904b47c141e9c279fc79703c5e",
+  "device_image_check": true,
+  "overwrite_confirmation": true,
+  "transfer_verified": true,
+  "reconnected": true,
+  "fresh_C042_version": "1.0.1.74",
+  "fresh_C042_time": "2026-10-24 22:57:46.657 America/Chicago",
+  "acoustic_verification": "User confirmed: Volume changes; ping is gone",
+  "stock_cache_restored": true,
+  "original_app_restored": true,
+  "normal_wheel_ping_gone": true,
+  "wheel_volume_control_working": true
+}

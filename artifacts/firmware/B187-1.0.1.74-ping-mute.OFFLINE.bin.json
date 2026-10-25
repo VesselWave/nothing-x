@@ -1,0 +1,21 @@
+{
+  "model": "B187",
+  "version": "1.0.1.74",
+  "mode": "mute",
+  "source_sha256": "3bcb4037056ffb6e1d1a18826b2e472bc8cdf55d047a213ceba94f2f1430ba33",
+  "output_sha256": "586211ac7b3e718e97b0ada858dee5690a1d1f03cf5668d03c2546e9248db059",
+  "size": 2030756,
+  "offset": "0x495a8",
+  "address": "0x2c0595a8",
+  "before": "dbf098b9",
+  "after": "704700bf",
+  "scope": "Case rotary helper normal prompts 50/51; boundary prompts remain possible",
+  "flashable": false,
+  "hardware_verified": false,
+  "limitations": [
+    "Offline decompressed code experiment only; no BES repacking or integrity repair",
+    "Footer CRC, secure boot/signature acceptance and recovery remain unresolved",
+    "Fixed/half-index change a prompt stream configuration, not measured sound pressure",
+    "Other prompt/mixing paths and minimum/maximum tones are not covered"
+  ]
+}
